@@ -1,0 +1,50 @@
+[
+  {
+    "name": "objectgeorienteerd-programmeren-deel-1",
+    "docsFile": "objectgeorienteerd-programmeren-deel-1"
+  },
+  {
+    "name": "objectgeorienteerd-programmeren-deel-2",
+    "docsFile": "objectgeorienteerd-programmeren-deel-2"
+  },
+  {
+    "name": "statische-klassen",
+    "docsFile": "statische-klassen"
+  },
+  {
+    "name": "overerving-deel-1",
+    "docsFile": "overerving-deel-1"
+  },
+  {
+    "name": "overerving-deel-2",
+    "docsFile": "overerving-deel-2"
+  },
+  {
+    "name": "lijsten-en-objectgeorienteerd-programmeren",
+    "docsFile": "lijsten-en-objectgeorienteerd-programmeren"
+  },
+  {
+    "name": "abstracte-klassen",
+    "docsFile": "abstracte-klassen"
+  },
+  {
+    "name": "interfaces",
+    "docsFile": "interfaces"
+  },
+  {
+    "name": "enkelvoudige-relaties",
+    "docsFile": "enkelvoudige-relaties"
+  },
+  {
+    "name": "meervoudige-relaties",
+    "docsFile": "meervoudige-relaties"
+  },
+  {
+    "name": "unit-testing",
+    "docsFile": "unit-testing"
+  },
+  {
+    "name": "exception-handling",
+    "docsFile": "exception-handling"
+  }
+]
