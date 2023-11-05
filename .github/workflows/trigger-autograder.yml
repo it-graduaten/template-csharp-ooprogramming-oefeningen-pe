@@ -1,8 +1,10 @@
+name: Trigger Autograder
+
 on:
   push:
 
 jobs:
-    create-json: 
+    trigger-autograder: 
       runs-on: ubuntu-latest
       steps: 
       - uses: actions/checkout@v4
@@ -12,29 +14,10 @@ jobs:
         run: |
             changedFiles=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | sed 's/\(.*\)/"\1"/g' | tr '\n' ', ' | sed 's/,$//')
             changedFilesArray="[${changedFiles}]"
-            echo "{repository: ${{ github.repository }}, sender_id: ${{ github.event.sender.id }}, push_timestamp: ${{ github.event.head_commit.timestamp }}, changed_files: $changedFilesArray}" > data.json
+            echo "{\"repository\": \"${{ github.repository }}\", \"sender_id\": \"${{ github.event.sender.id }}\", \"push_timestamp\": \"${{ github.event.head_commit.timestamp }}\", \"changed_files\": $changedFilesArray}" > data.json
       - name: Print the data.json
         run: |
             cat data.json
       - name: Post to lambda and print the response
         run: |
             curl -X POST -H "Content-Type: application/json" -d @data.json https://e6r0xhl8p7.execute-api.eu-central-1.amazonaws.com/Prod/grade/123456
-
-    trigger-autograder:
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v4
-        with: 
-          fetch-depth: 0
-      - name: Create json object
-        run: |
-            changedFiles=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | sed 's/\(.*\)/"\1"/g' | tr '\n' ', ' | sed 's/,$//')
-            changedFilesArray="[${changedFiles}]"
-            echo "{\"repository\": {\"full_name\": \"${{ github.repository }}\"}, \"sender\":{\"id\": \"${{ github.event.sender.id }}\"} , \"head_commit\": {\"timestamp\": \"${{ github.event.head_commit.timestamp }}\"} , \"commits\": []}" > data.json
-      - name: Print the data.json
-        run: |
-            cat data.json
-      - name: Post to lambda and print the response
-        run: |
-            curl -X POST -H "Content-Type: application/json" -d @data.json https://e6r0xhl8p7.execute-api.eu-central-1.amazonaws.com/Prod/grade/123456
-    
