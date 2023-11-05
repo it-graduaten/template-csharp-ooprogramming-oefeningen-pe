@@ -5,6 +5,8 @@ on:
 
 jobs:
     trigger-autograder: 
+      # Run only if not in the template repository
+      if: github.repository != 'it-graduaten/ooprogramming-starterrepo'
       runs-on: ubuntu-latest
       steps: 
       - uses: actions/checkout@v4
