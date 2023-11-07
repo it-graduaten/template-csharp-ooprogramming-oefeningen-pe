@@ -16,7 +16,7 @@ jobs:
         run: |
             changedFiles=$(git diff --name-only ${{ github.event.before }} ${{ github.event.after }} | sed 's/\(.*\)/"\1"/g' | tr '\n' ', ' | sed 's/,$//')
             changedFilesArray="[${changedFiles}]"
-            echo "{\"repository\": \"${{ github.repository }}\", \"sender_id\": \"${{ github.event.sender.id }}\", \"push_timestamp\": \"${{ github.event.head_commit.timestamp }}\", \"changed_files\": $changedFilesArray}" > data.json
+            echo "{\"repository\": \"${{ github.repository }}\", \"sender_github_username\": \"${{ github.event.sender.login }}\", \"sender_id\": \"${{ github.event.sender.id }}\", \"push_timestamp\": \"${{ github.event.head_commit.timestamp }}\", \"changed_files\": $changedFilesArray}" > data.json
       - name: Print the data.json
         run: |
             cat data.json
