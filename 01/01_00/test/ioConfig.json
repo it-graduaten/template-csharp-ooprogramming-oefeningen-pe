@@ -1,0 +1,29 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["5", "John", "Doe"],
+      "outputs": ["5 - John Doe"]
+    },
+    {
+      "inputs": ["10", "Jane", "Smith"],
+      "outputs": ["10 - Jane Smith"]
+    },
+    {
+      "inputs": ["20", "Mike", "Johnson"],
+      "outputs": ["20 - Mike Johnson"]
+    },
+    {
+      "inputs": ["50", "Emily", "Williams"],
+      "outputs": ["50 - Emily Williams"]
+    },
+    {
+      "inputs": ["100", "Jacob", "Jones"],
+      "outputs": ["100 - Jacob Jones"]
+    },
+    {
+      "inputs": ["200", "Ashley", "Brown"],
+      "outputs": ["200 - Ashley Brown"]
+    }
+  ]
+}
