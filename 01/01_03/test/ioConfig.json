@@ -1,0 +1,35 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["De kleine prins", "Antoine de Saint-Exupéry", "96", "10"],
+      "outputs": [
+        "Het boek De kleine prins van Antoine de Saint-Exupéry",
+        "10 dagen"
+      ]
+    },
+    {
+      "inputs": ["Zon", "Lucinda Riley", "256", "10"],
+      "outputs": ["Het boek Zon van Lucinda Riley", "26 dagen"]
+    },
+    {
+      "inputs": ["De avond is ongemak", "Marieke Lucas Rijneveld", "954", "3"],
+      "outputs": [
+        "Het boek De avond is ongemak van Marieke Lucas Rijneveld",
+        "318 dagen"
+      ]
+    },
+    {
+      "inputs": ["Finse dagen", "Herman Koch", "2489", "40"],
+      "outputs": ["Het boek Finse dagen van Herman Koch", "63 dagen"]
+    },
+    {
+      "inputs": ["Bonuskind", "Saskia Noort", "201", "6"],
+      "outputs": ["Het boek Bonuskind van Saskia Noort", "34 dagen"]
+    },
+    {
+      "inputs": ["Verzwegen", "Karin Slaughter", "487", "16"],
+      "outputs": ["Het boek Verzwegen van Karin Slaughter", "31 dagen"]
+    }
+  ]
+}
