@@ -3,7 +3,6 @@ class Gebruiker {
     + Nummer : int <<get>> <<set>>
     + Voornaam : string <<get>> <<set>>
     + Familienaam : string <<get>> <<set>>
-    + Test : string <<get>> <<set>>
     + Gebruiker()
     + Wissen() : void
     + ToonGegevens() : string
