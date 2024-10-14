@@ -1,0 +1,38 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "outputs": [
+        "Trainer: Pep Guardiola verdient 12000000 euro",
+        "Aantal spelers: 11",
+        "Aantal verdedigers: 1",
+        "Aantal aanvallers: 6",
+        "Aantal middenvelders: 4",
+        "Aantal keepers: 0"
+      ]
+    },
+    {
+      "inputs": [1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "outputs": [
+        "Trainer: Pep Guardiola verdient 12000000 euro",
+        "Aantal spelers: 11",
+        "Aantal verdedigers: 1",
+        "Aantal aanvallers: 6",
+        "Aantal middenvelders: 4",
+        "Aantal keepers: 0"
+      ]
+    },
+    {
+      "inputs": [1, 14, 2, 18, 4, 20, 6, 7, 25, 9, 10, 11],
+      "outputs": [
+        "Trainer: Pep Guardiola verdient 12000000 euro",
+        "Aantal spelers: 11",
+        "Aantal verdedigers: 2",
+        "Aantal aanvallers: 5",
+        "Aantal middenvelders: 3",
+        "Aantal keepers: 1"
+      ]
+    }
+  ]
+}
