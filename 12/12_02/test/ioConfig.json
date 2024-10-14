@@ -1,0 +1,24 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [3, 4],
+      "outputs": [
+        "26. Knuffel Adorable Penguin (1199)",
+        "20. Stripboek Asterix en het ijzeren schild (1699)"
+      ]
+    },
+    {
+      "inputs": [1, "De vliegende bal", 15, "Jef Nys", 20, 3, 4],
+      "outputs": ["41. Stripboek De vliegende bal (15)"]
+    },
+    {
+      "inputs": [2, "Bartje", 10, 8, 7, 6, 3, 4],
+      "outputs": ["41. Knuffel Bartje (10)"]
+    },
+    {
+      "inputs": [2, "Bartje", 10, 8, 7, 6, 2, "Bartje", 10, 8, 7, 6, 3, 4],
+      "outputs": ["41. Knuffel Bartje (10)", "Product bestaat reeds!"]
+    }
+  ]
+}
