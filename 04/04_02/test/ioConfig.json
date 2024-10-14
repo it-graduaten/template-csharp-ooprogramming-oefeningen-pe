@@ -1,0 +1,18 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [1, "BE12 1234 1234 1234"],
+      "outputs": ["Rekening BE12 1234 1234 1234", "saldo 0", "(percentage 5)"]
+    },
+    {
+      "inputs": [2, "BE12 1234 1234 1234", 250],
+      "outputs": [
+        "Rekening BE12 1234 1234 1234",
+        250,
+        "saldo 250",
+        "(minimum -100)"
+      ]
+    }
+  ]
+}
