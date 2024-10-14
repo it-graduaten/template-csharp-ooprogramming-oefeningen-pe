@@ -1,0 +1,70 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [ "0" ],
+      "outputs": [
+        "Jan",
+        "klaas",
+        "Koen",
+        "Vermeulen",
+        "Vince",
+        "Gijs",
+        "Goedele",
+        "Dekkers",
+        "Dries",
+        "Hendriks",
+        "Charlotte",
+        "Van",
+        "Leeuwen",
+        "Sara",
+        "Bos"
+      ]
+    },
+    {
+      "inputs": [ "1" ],
+      "outputs": [
+        14,
+        15,
+        20,
+        8,
+        12,
+        4,
+        1
+      ]
+    },
+    {
+      "inputs": [ "2" ],
+      "outputs": [
+        "Jan",
+        "klaas",
+        "(14)Koen",
+        "Vermeulen",
+        "(15)Vince",
+        "Gijs",
+        "(20)Goedele",
+        "Dekkers",
+        "(8)Dries",
+        "Hendriks",
+        "(12)Charlotte",
+        "Van",
+        "Leeuwen",
+        "(4)Sara",
+        "Bos",
+        "(1)"
+      ]
+    },
+    {
+      "inputs": ["1000", "1" ],
+      "outputs": [
+        14,
+        15,
+        20,
+        8,
+        12,
+        4,
+        1
+      ]
+    }
+  ]
+}
