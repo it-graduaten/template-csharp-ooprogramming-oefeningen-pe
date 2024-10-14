@@ -1,0 +1,16 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [1],
+      "outputs": [
+        "Mieke Vreys",
+        "89",
+        "Geslaagd!",
+        "Kristof Gheys",
+        "47",
+        "Niet geslaagd!"
+      ]
+    }
+  ]
+}
