@@ -1,0 +1,13 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["John", "Doe", "Jane", "Johnson"],
+      "outputs": ["John", "Doe", "10,2", "Jane", "Johnson", "JJ"]
+    },
+    {
+      "inputs": ["Aline", "Rope", "Kay", "Portland"],
+      "outputs": ["Aline", "Rope", "10,2", "Kay", "Portland", "KP"]
+    }
+  ]
+}
