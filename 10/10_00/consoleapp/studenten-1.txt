@@ -1,0 +1,25 @@
+1;De Vries;Jan;75;80
+2;Jansen;Anna;60;70
+3;Pietersen;Peter;85;90
+4;Bakker;Sara;70;75
+5;Klein;Johan;65;80
+6;Willems;Lotte;78;88
+7;Maes;Lucas;92;85
+8;Claes;Emma;88;92
+9;Vermeulen;Thomas;75;78
+10;Lambrechts;Eva;80;85
+11;Martens;Tim;68;70
+12;Peeters;Lara;90;95
+13;Brouwers;Ruben;82;88
+14;Vandenberg;Sophie;77;80
+15;Hendriks;Mia;65;72
+16;Wouters;Michiel;95;90
+17;Verschueren;Amber;85;88
+18;Smit;Daan;73;75
+19;Jacobs;Femke;78;80
+20;Bos;Niels;60;65
+21;De Bruin;Lise;89;94
+22;Kusters;Stijn;72;78
+23;De Boer;Lisa;80;85
+24;Kok;Bram;68;72
+25;Bosman;Sofie;88;90

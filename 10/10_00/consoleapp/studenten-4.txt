@@ -1,0 +1,25 @@
+76;Hansen;Nina;78;82
+77;Jansma;Rik;65;70
+78;Bakker;Luna;90;88
+79;Veenstra;Stefan;75;78
+80;De Jong;Evi;80;85
+81;Kramer;Lars;68;72
+82;De Graaf;Femke;95;92
+83;Peters;Noa;85;88
+84;Scholten;Lucas;72;75
+85;Van Dam;Olivia;60;65
+86;Wouters;Tygo;82;80
+87;Huisman;Nora;77;75
+88;Meijer;Mats;85;90
+89;Vanderbilt;Nienke;78;82
+90;Jonker;Jayden;90;92
+91;Smeets;Tessa;73;75
+92;Kuipers;Max;68;70
+93;Verbeek;Liv;88;85
+94;Hendriksen;Eva;60;65
+95;De Lange;Liam;95;94
+96;Bosch;Sara;80;88
+97;Van Vliet;Sem;78;80
+98;Kok;Luna;65;72
+99;Vermeulen;Finn;92;90
+100;Van de Velde;Elin;85;85

@@ -1,0 +1,25 @@
+26;Bakker;Tom;78;82
+27;Vos;Anna;65;70
+28;Peters;Luc;90;88
+29;Meijer;Lotte;75;78
+30;Kuijpers;Erik;80;85
+31;Hansen;Mia;68;72
+32;Janssen;Tim;95;92
+33;Smeets;Lara;85;88
+34;Van Dijk;Emma;72;75
+35;Van Hout;Johan;60;65
+36;Verbeek;Sophie;82;80
+37;Willemsen;Daan;77;75
+38;Brouwer;Ruben;85;90
+39;Veenstra;Sophie;78;82
+40;Jonker;Niels;90;92
+41;Koster;Amber;73;75
+42;Veen;Daan;68;70
+43;Bosch;Femke;88;85
+44;Van de Velde;Niels;60;65
+45;Van Dam;Lise;95;94
+46;De Lange;Stijn;80;88
+47;Hoekstra;Lisa;78;80
+48;Schouten;Bram;65;72
+49;Van Vliet;Sofie;92;90
+50;Hendriksen;Robin;85;85
