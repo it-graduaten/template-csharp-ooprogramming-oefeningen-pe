@@ -11,4 +11,13 @@
     <InternalsVisibleTo Include="test" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="scores.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="studenten.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
