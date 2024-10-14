@@ -1,0 +1,17 @@
+Heathrow Airport;AB123;CD456;EF789
+John F. Kennedy International Airport;GH012;IJ345;KL678
+Los Angeles International Airport;MN901;OP234;QR567
+Dubai International Airport;ST890;UV123;WX456;YZ789
+Tokyo Haneda Airport;AB901;CD234;EF567;GH890
+Beijing Capital International Airport;IJ123;KL456;MN789
+O'Hare International Airport;OP012;QR345;ST678;UV901
+Charles de Gaulle Airport;WX234;YZ567;AB890
+Frankfurt Airport;CD123;EF456;GH789
+Singapore Changi Airport;IJ012;KL345;MN678
+Hong Kong International Airport;OP901;QR234;ST567
+Incheon International Airport;UV890;WX123;YZ456
+Amsterdam Airport Schiphol;AB789;CD012;EF345
+Denver International Airport;GH678;IJ901;KL234
+Suvarnabhumi Airport;MN567;OP890;QR123
+Dallas/Fort Worth International Airport;ST456;UV789;WX012
+Indira Gandhi International Airport;YZ345;AB678;CD901
