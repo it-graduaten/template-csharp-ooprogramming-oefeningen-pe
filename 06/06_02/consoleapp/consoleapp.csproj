@@ -11,4 +11,10 @@
     <InternalsVisibleTo Include="test" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="cursisten.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
