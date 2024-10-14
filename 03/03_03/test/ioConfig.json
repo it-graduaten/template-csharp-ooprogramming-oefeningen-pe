@@ -1,0 +1,45 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["Joeri", "Verlooy", "92.09.02-316.55", "979-9315445-55"],
+      "outputs": [
+        "Joeri Verlooy",
+        "92.09.02-316.55 (ongeldig)",
+        "979-9315445-55 (geldig)"
+      ]
+    },
+    {
+      "inputs": ["Joeri", "Verlooy", "92.11.10-678.61", "979-9315445-55"],
+      "outputs": [
+        "Joeri Verlooy",
+        "92.11.10-678.61 (geldig)",
+        "979-9315445-55 (geldig)"
+      ]
+    },
+    {
+      "inputs": ["Joeri", "Verlooy", "93.05.18-223.03", "979-9315445-55"],
+      "outputs": [
+        "Joeri Verlooy",
+        "93.05.18-223.03 (geldig)",
+        "979-9315445-55 (geldig)"
+      ]
+    },
+    {
+      "inputs": ["Joeri", "Verlooy", "93.07.19-415.18", "979-9315445-55"],
+      "outputs": [
+        "Joeri Verlooy",
+        "93.07.19-415.18 (ongeldig)",
+        "979-9315445-55 (geldig)"
+      ]
+    },
+    {
+      "inputs": ["Joeri", "Verlooy", "93.07.19-415.18", "979-9315445-54"],
+      "outputs": [
+        "Joeri Verlooy",
+        "93.07.19-415.18 (ongeldig)",
+        "979-9315445-54 (ongeldig)"
+      ]
+    }
+  ]
+}
