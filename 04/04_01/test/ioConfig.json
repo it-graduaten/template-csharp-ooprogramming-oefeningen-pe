@@ -1,0 +1,33 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [0, 3, 4],
+      "outputs": ["Punt", "coord=(3,4)"]
+    },
+    {
+      "inputs": [1, 3, 4, 5],
+      "outputs": [
+        "Cirkel",
+        "coord=(3,4)",
+        "straal",
+        "5",
+        "Oppervlakte: 78,54",
+        "Omtrek: 31,42"
+      ]
+    },
+    {
+      "inputs": [2, 3, 4, 5, 6],
+      "outputs": [
+        "Cilinder",
+        "coord=(3,4)",
+        "straal",
+        "5",
+        "hoogte",
+        "6",
+        "Oppervlakte: 345,6",
+        "Volume: 471,24"
+      ]
+    }
+  ]
+}
