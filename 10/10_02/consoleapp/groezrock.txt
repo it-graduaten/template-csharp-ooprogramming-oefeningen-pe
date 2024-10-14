@@ -1,0 +1,6 @@
+vrijdag;Story of the year;punk rock;20000
+vrijdag;Yellowcard;alternatieve rock;30000
+zaterdag;Against the current;synth pop;15000
+zaterdag;Thousand foot krutch;Christelijke rock;10000
+zondag;Beartooth;metalcore;12500
+zondag;Forever the sickest kids;poppunk;5000

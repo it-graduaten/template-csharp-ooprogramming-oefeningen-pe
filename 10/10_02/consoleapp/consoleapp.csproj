@@ -11,4 +11,16 @@
     <InternalsVisibleTo Include="test" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="festivals.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="groezrock.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="pukkelpop.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

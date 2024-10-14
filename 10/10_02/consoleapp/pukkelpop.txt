@@ -1,0 +1,6 @@
+vrijdag;Paramore;poprock;25000
+vrijdag;Billie Eilish;electropop;45000
+zaterdag;Chvrches;alternatief;15000
+zaterdag;PRIZM;80's dance;5000
+zondag;Silverstein;indie rock;10000
+zondag;ITZY;kpop;25000
