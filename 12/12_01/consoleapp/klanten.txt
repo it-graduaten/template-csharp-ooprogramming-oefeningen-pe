@@ -1,0 +1,5 @@
+﻿1000;Andrew Antosca;485 Duane Terrace;Ann Arbor;48108;
+1001;Barbara White;3400 Richmond Parkway #3423;Bristol;06010;
+1002;Karl Vang;327 Franklin Street;Edina;55435;
+1003;Ronda Chavan;518 Comanche Dr.;Greensboro;27410;
+1004;Sam Carol;9379 N. Street;Long Beach;90806;
