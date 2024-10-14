@@ -1,0 +1,52 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [
+        "spel-1.txt",
+        2,
+        "klaveren",
+        "zwart",
+        3,
+        "klaveren",
+        "zwart",
+        10,
+        "koeken",
+        "rood"
+      ],
+      "outputs": [
+        "U heeft niet goed gegokt",
+        "Computer: 1 - Speler: 0",
+        "Computer: 2 - Speler: 0",
+        "Computer: 3 - Speler: 0",
+        "De computer is de winnaar"
+      ]
+    },
+    {
+      "inputs": [
+        "spel-1.txt",
+        1,
+        "schoppen",
+        "zwart",
+        2,
+        "koeken",
+        "rood",
+        3,
+        "ruiten",
+        "zwart",
+        8,
+        "klaveren",
+        "zwart"
+      ],
+      "outputs": [
+        "U heeft goed gegokt",
+        "U heeft niet goed gegokt",
+        "Computer: 0 - Speler: 1",
+        "Computer: 1 - Speler: 1",
+        "Computer: 1 - Speler: 2",
+        "Computer: 1 - Speler: 3",
+        "De speler is de winnaar"
+      ]
+    }
+  ]
+}
