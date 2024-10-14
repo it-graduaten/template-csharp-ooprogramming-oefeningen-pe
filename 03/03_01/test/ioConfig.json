@@ -1,0 +1,65 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["0", "20", "30"],
+      "outputs": [
+        {
+          "type": "double",
+          "doubleConfig": {
+            "value": 600,
+            "delta": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "inputs": ["1", "5"],
+      "outputs": [
+        {
+          "type": "double",
+          "doubleConfig": {
+            "value": 78.54,
+            "delta": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "inputs": ["2", "10", "10", "9"],
+      "outputs": [
+        {
+          "type": "double",
+          "doubleConfig": {
+            "value": 900,
+            "delta": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "inputs": ["2", "1", "4", "27"],
+      "outputs": [
+        {
+          "type": "double",
+          "doubleConfig": {
+            "value": 108,
+            "delta": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "inputs": ["3", "2", "3"],
+      "outputs": [
+        {
+          "type": "double",
+          "doubleConfig": {
+            "value": 37.7,
+            "delta": 0.5
+          }
+        }
+      ]
+    }
+  ]
+}
