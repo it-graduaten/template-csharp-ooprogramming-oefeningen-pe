@@ -1,0 +1,70 @@
+Speler;Lionel;Messi;Aanvaller
+Speler;Cristiano;Ronaldo;Aanvaller
+Speler;Neymar da Silva;Júnior;Aanvaller
+Speler;Kylian;Mbappé;Aanvaller
+Speler;Mohamed;Salah;Aanvaller
+Speler;Robert;Lewandowski;Aanvaller
+Speler;Kevin;De Bruyne;Middenvelder
+Speler;Luka;Modrić;Middenvelder
+Speler;N'Golo;Kanté;Middenvelder
+Speler;Bruno;Fernandes;Middenvelder
+Speler;Sergio;Ramos;Verdediger
+Speler;Virgil;van Dijk;Verdediger
+Speler;Ruben;Dias;Verdediger
+Speler;Andrew;Robertson;Verdediger
+Speler;Alisson;Becker;Keeper
+Speler;Jan;Oblak;Keeper
+Speler;Thibaut;Courtois;Keeper
+Speler;Ederson;Moraes;Keeper
+Speler;Harry;Kane;Aanvaller
+Speler;Erling;Haaland;Aanvaller
+Speler;Antoine;Griezmann;Aanvaller
+Speler;Raheem;Sterling;Aanvaller
+Speler;Joshua;Kimmich;Middenvelder
+Speler;Gareth;Bale;Aanvaller
+Speler;Sadio;Mané;Aanvaller
+Speler;Paul;Pogba;Middenvelder
+Speler;Thomas;Müller;Aanvaller
+Speler;Thiago;Silva;Verdediger
+Speler;Henrique;Casemiro;Middenvelder
+Speler;Jadon;Sancho;Aanvaller
+Speler;Phil;Foden;Middenvelder
+Speler;Vinícius;Júnior;Aanvaller
+Speler;Jose;Marquinhos;Verdediger
+Speler;Romelu;Lukaku;Aanvaller
+Speler;Hakim;Ziyech;Middenvelder
+Speler;Kalidou;Koulibaly;Verdediger
+Speler;Jordan;Henderson;Middenvelder
+Speler;Aymeric;Laporte;Verdediger
+Speler;Leroy;Sané;Aanvaller
+Speler;More;Jorginho;Middenvelder
+Speler;Trent;Alexander-Arnold;Verdediger
+Speler;Marcus;Rashford;Aanvaller
+Speler;Frenkie;de Jong;Middenvelder
+Speler;Henk;Rodri;Middenvelder
+Speler;Matthijs;de Ligt;Verdediger
+Speler;João;Cancelo;Verdediger
+Speler;Jack;Grealish;Middenvelder
+Speler;David;Alaba;Verdediger
+Speler;Bernardo;Silva;Middenvelder
+Speler;Leon;Goretzka;Middenvelder
+Trainer;Pep;Guardiola;12000000
+Trainer;Jurgen;Klopp;10000000
+Trainer;Zinedine;Zidane;8000000
+Trainer;Carlo;Ancelotti;9000000
+Trainer;Diego;Simeone;11000000
+Trainer;Thomas;Tuchel;9500000
+Trainer;Mauricio;Pochettino;8500000
+Trainer;Ole;Gunnar Solskjær;9000000
+Trainer;Julian;Nagelsmann;9200000
+Trainer;Massimiliano;Allegri;10000000
+Trainer;Ronald;Koeman;8500000
+Trainer;Erik;Ten Hag;9000000
+Trainer;Brendan;Rodgers;8000000
+Trainer;Ralph;Hasenhüttl;7500000
+Trainer;Marcelo;Bielsa;8500000
+Trainer;Graham;Potter;7000000
+Trainer;Nuno;Espirito Santo;7500000
+Trainer;Steve;Bruce;6000000
+Trainer;Roy;Hodgson;6500000
+Trainer;Sam;Allardyce;7000000
