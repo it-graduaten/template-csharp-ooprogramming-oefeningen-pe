@@ -1,0 +1,96 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [1, 1],
+      "outputs": [
+        "OVERZICHT FESTIVAL PUKKELPOP",
+        "----------------------------",
+        "vrijdag",
+        "Paramore (poprock)",
+        "Billie Eilish (electropop)",
+        "zaterdag",
+        "Chvrches (alternatief)",
+        "PRIZM (80's dance)",
+        "zondag",
+        "Silverstein (indie rock)",
+        "ITZY (kpop)",
+        "In totaal werd er 125000 euro besteed aan artiesten",
+        "Het budget bedraagt 1000000 euro"
+      ]
+    },
+    {
+      "inputs": [1, 2, "vrijdag", "LeBrock", "synth rock", 12500],
+      "outputs": [
+        "OVERZICHT FESTIVAL PUKKELPOP",
+        "----------------------------",
+        "vrijdag",
+        "Paramore (poprock)",
+        "Billie Eilish (electropop)",
+        "LeBrock (synth rock)",
+        "zaterdag",
+        "Chvrches (alternatief)",
+        "PRIZM (80's dance)",
+        "zondag",
+        "Silverstein (indie rock)",
+        "ITZY (kpop)",
+        "In totaal werd er 137500 euro besteed aan artiesten",
+        "Het budget bedraagt 1000000 euro"
+      ]
+    },
+    {
+      "inputs": [1, 3, "vrijdag", "Paramore"],
+      "outputs": [
+        "OVERZICHT FESTIVAL PUKKELPOP",
+        "----------------------------",
+        "vrijdag",
+        "Billie Eilish (electropop)",
+        "zaterdag",
+        "Chvrches (alternatief)",
+        "PRIZM (80's dance)",
+        "zondag",
+        "Silverstein (indie rock)",
+        "ITZY (kpop)",
+        "In totaal werd er 100000 euro besteed aan artiesten",
+        "Het budget bedraagt 1000000 euro"
+      ]
+    },
+    {
+      "inputs": [2, 1],
+      "outputs": [
+        "OVERZICHT FESTIVAL GROEZROCK",
+        "----------------------------",
+        "vrijdag",
+        "Story of the year (punk rock)",
+        "Yellowcard (alternatieve rock)",
+        "zaterdag",
+        "Against the current (synth pop)",
+        "Thousand foot krutch (Christelijke rock)",
+        "zondag",
+        "Beartooth (metalcore)",
+        "Forever the sickest kids (poppunk)",
+        "In totaal werd er 92500 euro besteed aan artiesten",
+        "Het budget bedraagt 450000 euro"
+      ]
+    },
+    {
+      "inputs": [2, 2, "zaterdag", "Sum 41", "punk rock", 125000],
+      "outputs": [
+        "OVERZICHT FESTIVAL GROEZROCK",
+        "----------------------------",
+        "vrijdag",
+        "Story of the year (punk rock)",
+        "Yellowcard (alternatieve rock)",
+        "zaterdag",
+        "Against the current (synth pop)",
+        "Thousand foot krutch (Christelijke rock)",
+        "Sum 41 (punk rock)",
+        "zondag",
+        "Beartooth (metalcore)",
+        "Forever the sickest kids (poppunk)",
+        "In totaal werd er 217500 euro besteed aan artiesten",
+        "Het budget bedraagt 450000 euro"
+      ]
+    }
+  ]
+}
