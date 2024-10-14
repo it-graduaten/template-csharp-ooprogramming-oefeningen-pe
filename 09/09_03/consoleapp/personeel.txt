@@ -1,0 +1,7 @@
+﻿Jan;Claes;false
+John;Peeters;false
+An;Debol;false
+Vince;Dehouwer;false
+Carina;Devis;false
+Nelly;D'hondt;true
+Cindy;Vreys;true

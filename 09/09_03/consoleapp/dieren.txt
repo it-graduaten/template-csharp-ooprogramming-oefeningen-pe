@@ -1,0 +1,10 @@
+﻿Fonske;Keizerpenguin;false
+Annie;Keizerpenguin;false
+Bertje;West-Afrikaanse dwerggeit;false
+Marie;West-Afrikaanse dwerggeit;false
+Bonnie;Gele pijlgifkikker;true
+Clyde;Gele pijlgifkikker;true
+Sonja;Rosszeehond;false
+Gerrie;Rosszeehond;false
+Inie;Antennebaarsje;false
+Minie;Antennebaarsje;false
