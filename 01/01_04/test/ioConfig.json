@@ -1,0 +1,45 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [10, 10, 10, 0],
+      "outputs": [
+        "Breedte = 10",
+        "Lengte = 10",
+        "Diepte = 10",
+        "Randafstand = 0",
+        "Liters water = 1000000"
+      ]
+    },
+    {
+      "inputs": [25, 50, 3, 1],
+      "outputs": [
+        "Breedte = 25",
+        "Lengte = 50",
+        "Diepte = 3",
+        "Randafstand = 1",
+        "Liters water = 2500000"
+      ]
+    },
+    {
+      "inputs": [15, 20, 5, 2],
+      "outputs": [
+        "Breedte = 15",
+        "Lengte = 20",
+        "Diepte = 5",
+        "Randafstand = 2",
+        "Liters water = 900000"
+      ]
+    },
+    {
+      "inputs": [8, 12, 2, "0,5"],
+      "outputs": [
+        "Breedte = 8",
+        "Lengte = 12",
+        "Diepte = 2",
+        "Randafstand = 0,5",
+        "Liters water = 144000"
+      ]
+    }
+  ]
+}
