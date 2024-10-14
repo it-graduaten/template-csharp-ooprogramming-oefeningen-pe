@@ -1,0 +1,31 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [0],
+      "outputs": [
+        "1000",
+        "Andrew Antosca",
+        "485 Duane Terrace",
+        "48108 Ann Arbor",
+        "1004",
+        "Sam Carol",
+        "9379 N. Street",
+        "90806 Long Beach"
+      ]
+    },
+    {
+      "inputs": [1, 1001],
+      "outputs": [
+        "1001",
+        "Barbara White",
+        "3400 Richmond Parkway #3423",
+        "06010 Bristol"
+      ]
+    },
+    {
+      "inputs": [1, 1007],
+      "outputs": ["Klant met nummer 1007 bestaat niet"]
+    }
+  ]
+}
