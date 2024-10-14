@@ -1,0 +1,29 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["30", "24000", "0", "2"],
+      "outputs": ["De auto is volledig in orde!"]
+    },
+    {
+      "inputs": ["12", "20000", "0", "3"],
+      "outputs": ["Voeg brandstof toe aub!"]
+    },
+    {
+      "inputs": ["60", "24999", "0", "1"],
+      "outputs": ["Er is dringend onderhoud nodig!"]
+    },
+    {
+      "inputs": ["20", "24999", "0", "3"],
+      "outputs": ["Voeg brandstof toe aub!", "Er is dringend onderhoud nodig!"]
+    },
+    {
+      "inputs": ["80", "23000", "0", "4", "24"],
+      "outputs": ["De auto is volledig in orde!"]
+    },
+    {
+      "inputs": ["20", "25500", "0", "5"],
+      "outputs": ["De auto is volledig in orde!"]
+    }
+  ]
+}
