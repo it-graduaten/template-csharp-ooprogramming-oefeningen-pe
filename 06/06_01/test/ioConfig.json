@@ -1,0 +1,17 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["Een"],
+      "outputs": ["nummer", "kanaal", "1"]
+    },
+    {
+      "inputs": ["Canvas"],
+      "outputs": ["nummer", "kanaal", "2"]
+    },
+    {
+      "inputs": ["Vier"],
+      "outputs": ["nummer", "kanaal", "5"]
+    }
+  ]
+}
