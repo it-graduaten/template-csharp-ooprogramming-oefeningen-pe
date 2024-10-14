@@ -1,0 +1,13 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [3],
+      "outputs": [""]
+    },
+    {
+      "inputs": [1, "ZB123", "Audi", 500, 20, 3],
+      "outputs": ["chassisnummer ZB123", "Cilinderinhoud: 500 - Pk: 20"]
+    }
+  ]
+}
