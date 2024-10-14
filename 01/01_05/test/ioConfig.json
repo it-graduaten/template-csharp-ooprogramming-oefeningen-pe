@@ -1,0 +1,65 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["John", "Doe", 12, 20],
+      "outputs": ["John", "Doe", "12 voor wiskunde", "20 voor informatica"]
+    },
+    {
+      "inputs": ["Jane", "Doe", 14, 18],
+      "outputs": ["Jane", "Doe", "14 voor wiskunde", "18 voor informatica"]
+    },
+    {
+      "inputs": ["Jack", "Doe", 16, 16],
+      "outputs": ["Jack", "Doe", "16 voor wiskunde", "16 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 25, 25],
+      "outputs": ["Jill", "Doe", "20 voor wiskunde", "20 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", -3, -3],
+      "outputs": ["Jill", "Doe", "0 voor wiskunde", "0 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 3, 3],
+      "outputs": ["Jill", "Doe", "3 voor wiskunde", "3 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 0, 0],
+      "outputs": ["Jill", "Doe", "0 voor wiskunde", "0 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 20, 20],
+      "outputs": ["Jill", "Doe", "20 voor wiskunde", "20 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 21, 21],
+      "outputs": ["Jill", "Doe", "20 voor wiskunde", "20 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 22, 22],
+      "outputs": ["Jill", "Doe", "20 voor wiskunde", "20 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 23, 23],
+      "outputs": ["Jill", "Doe", "20 voor wiskunde", "20 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 24, 24],
+      "outputs": ["Jill", "Doe", "20 voor wiskunde", "20 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 25, 25],
+      "outputs": ["Jill", "Doe", "20 voor wiskunde", "20 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 26, 26],
+      "outputs": ["Jill", "Doe", "20 voor wiskunde", "20 voor informatica"]
+    },
+    {
+      "inputs": ["Jill", "Doe", 27, 27],
+      "outputs": ["Jill", "Doe", "20 voor wiskunde", "20 voor informatica"]
+    }
+  ]
+}
