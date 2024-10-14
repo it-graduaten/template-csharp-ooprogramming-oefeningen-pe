@@ -1,0 +1,107 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [
+        "John",
+        "Doe",
+        "johndoe@gmail.com",
+        "6",
+        "Aanwezigheid",
+        "Ben je aanwezig op de vergadering?"
+      ],
+      "outputs": [
+        "Volgende email wordt verstuurd:",
+        "Verzender: John Doe (johndoe@gmail.com)",
+        "Ontvanger: Phyllys Blissett (pblissett5@microsoft.com)",
+        "Titel: Aanwezigheid",
+        "Bericht: Ben je aanwezig op de vergadering?"
+      ]
+    },
+    {
+      "inputs": [
+        "Jan",
+        "Klaas",
+        "janklaas@hotmail.com",
+        "4",
+        "Proficiat",
+        "Proficiat met uw verjaardag!"
+      ],
+      "outputs": [
+        "Volgende email wordt verstuurd:",
+        "Verzender: Jan Klaas (janklaas@hotmail.com)",
+        "Ontvanger: Faunie Jordison (fjordison3@netscape.com)",
+        "Titel: Proficiat",
+        "Bericht: Proficiat met uw verjaardag!"
+      ]
+    },
+    {
+      "inputs": [
+        "Sanne",
+        "Verstraten",
+        "sanneke@yahoo.com",
+        "9",
+        "Presentatie",
+        "In de bijlage kan u de presentatie van aanstaande maandag terugvinden."
+      ],
+      "outputs": [
+        "Volgende email wordt verstuurd:",
+        "Verzender: Sanne Verstraten (sanneke@yahoo.com)",
+        "Ontvanger: Sayre Tellenbroker (stellenbroker8@merriam-webster.com)",
+        "Titel: Presentatie",
+        "Bericht: In de bijlage kan u de presentatie van aanstaande maandag terugvinden."
+      ]
+    },
+    {
+      "inputs": [
+        "Brain",
+        "Verboven",
+        "brain.verboven@thomasmore.be",
+        "10",
+        "Aanwezigheid",
+        "Kan u uw aanwezigheid bevestigen aub?"
+      ],
+      "outputs": [
+        "Volgende email wordt verstuurd:",
+        "Verzender: Brain Verboven (brain.verboven@thomasmore.be)",
+        "Ontvanger: Angel Smalley (asmalley9@shop-pro.jp)",
+        "Titel: Aanwezigheid",
+        "Bericht: Kan u uw aanwezigheid bevestigen aub?"
+      ]
+    },
+    {
+      "inputs": [
+        "Carina",
+        "Peeters",
+        "c.peeters@gmail.com",
+        "2",
+        "Opdracht",
+        "U kan mijn opdracht terugvinden in de bijlage."
+      ],
+      "outputs": [
+        "Volgende email wordt verstuurd:",
+        "Verzender: Carina Peeters (c.peeters@gmail.com)",
+        "Ontvanger: Moyna Ewbank (mewbank1@sohu.com)",
+        "Titel: Opdracht",
+        "Bericht: U kan mijn opdracht terugvinden in de bijlage."
+      ]
+    },
+    {
+      "inputs": [
+        "Karen",
+        "Vermeulen",
+        "therealkaren@outlook.com",
+        "1",
+        "Artikel",
+        "Heb je dit artikel al gelezen? Echt te gek voor woorden!"
+      ],
+      "outputs": [
+        "Volgende email wordt verstuurd:",
+        "Verzender: Karen Vermeulen (therealkaren@outlook.com)",
+        "Ontvanger: Ferrel Rings (frings0@state.tx.us)",
+        "Titel: Artikel",
+        "Bericht: Heb je dit artikel al gelezen? Echt te gek voor woorden!"
+      ]
+    }
+  ]
+}
