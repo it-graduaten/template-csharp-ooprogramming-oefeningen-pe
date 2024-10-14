@@ -1,0 +1,41 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [0, 0, 3],
+      "outputs": [
+        "Keukenlicht: Aan",
+        "Woonkamerlicht: Uit",
+        "Verwarming: Uit",
+        "Temperatuur: 0"
+      ]
+    },
+    {
+      "inputs": [1, 0, 3],
+      "outputs": [
+        "Keukenlicht: Uit",
+        "Woonkamerlicht: Aan",
+        "Verwarming: Uit",
+        "Temperatuur: 0"
+      ]
+    },
+    {
+      "inputs": [2, 0, 3],
+      "outputs": [
+        "Keukenlicht: Uit",
+        "Woonkamerlicht: Uit",
+        "Verwarming: Aan",
+        "Temperatuur: 0"
+      ]
+    },
+    {
+      "inputs": [2, 2, 10, 3],
+      "outputs": [
+        "Keukenlicht: Uit",
+        "Woonkamerlicht: Uit",
+        "Verwarming: Uit",
+        "Temperatuur: 10"
+      ]
+    }
+  ]
+}
