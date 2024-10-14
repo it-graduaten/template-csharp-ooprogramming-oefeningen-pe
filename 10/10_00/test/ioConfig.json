@@ -1,0 +1,22 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["studenten-1.txt", 1],
+      "outputs": [
+        "Klas 1 - 1A",
+        "17 - Verschueren Amber - Punt wiskunde: 85 - Punt nederlands: 88",
+        "20 - Bos Niels - Punt wiskunde: 60 - Punt nederlands: 65"
+      ]
+    },
+    {
+      "inputs": ["studenten-2.txt", 2],
+      "outputs": [
+        "Gemiddelde wiskunde",
+        "Gemiddelde Nederlands:",
+        "78,56",
+        "80,72"
+      ]
+    }
+  ]
+}
