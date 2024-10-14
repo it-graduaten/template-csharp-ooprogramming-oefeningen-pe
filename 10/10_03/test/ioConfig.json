@@ -1,0 +1,19 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [""],
+      "outputs": [
+        "Luchthaven: Heathrow Airport (3 toestellen)",
+        "Vliegtuig: AB123 (Boeing 747) met 416 zitplaatsen",
+        "Vliegtuig: CD456 (Airbus A380) met 555 zitplaatsen",
+        "Vliegtuig: EF789 (Boeing 737) met 189 zitplaatsen",
+        "Luchthaven: Dubai International Airport (4 toestellen)",
+        "Vliegtuig: ST890 (Embraer E175) met 88 zitplaatsen",
+        "Vliegtuig: UV123 (Airbus A330) met 300 zitplaatsen",
+        "Vliegtuig: WX456 (Boeing 767) met 290 zitplaatsen",
+        "Vliegtuig: YZ789 (Embraer E195) met 120 zitplaatsen"
+      ]
+    }
+  ]
+}
