@@ -1,0 +1,48 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["4", "5", "0", "6", "18"],
+      "outputs": [
+        "Verzorgers",
+        "==========",
+        "Hoofdverzorger: Jan Claes (Vaste medewerker)",
+        "Hulpverzorger: Cindy Vreys (Stagair)",
+        "",
+        "Dieren",
+        "======",
+        "Mannetjesdier: Bonnie (Gele pijlgifkikker) (Laatst gevoerd: 18:00)",
+        "Vrouwtjesdier: Clyde (Gele pijlgifkikker) (Laatst gevoerd: 18:00)"
+      ],
+      "fixtures": ["dieren.txt", "personeel.txt"]
+    },
+    {
+      "inputs": ["4", "5", "6", "0", "6", "23"],
+      "outputs": [
+        "Verzorgers",
+        "==========",
+        "Hoofdverzorger: Jan Claes (Vaste medewerker)",
+        "Hulpverzorger: Cindy Vreys (Stagair)",
+        "",
+        "Dieren",
+        "======",
+        "Mannetjesdier: Bonnie (Gele pijlgifkikker) (Laatst gevoerd: 23:00)",
+        "Vrouwtjesdier: Clyde (Gele pijlgifkikker) (Laatst gevoerd: 23:00)"
+      ]
+    },
+    {
+      "inputs": ["1", "8", "1", "0", "1", "5"],
+      "outputs": [
+        "Verzorgers",
+        "==========",
+        "Hoofdverzorger: Jan Claes (Vaste medewerker)",
+        "Hulpverzorger: John Peeters (Vaste medewerker)",
+        "",
+        "Dieren",
+        "======",
+        "Mannetjesdier: Annie (Keizerpenguin) (Laatst gevoerd: 05:00)",
+        "Vrouwtjesdier: Annie (Keizerpenguin) (Laatst gevoerd: 05:00)"
+      ]
+    }
+  ]
+}
