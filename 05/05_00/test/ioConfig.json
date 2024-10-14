@@ -1,0 +1,29 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["0"],
+      "outputs": [""]
+    },
+    {
+      "inputs": ["1", "1", "0"],
+      "outputs": [
+        "Ik ben een Audi met nummerplaat 1-lvn-568",
+        "25000 km",
+        "25",
+        "liter",
+        "Kostprijs: 7500 euro"
+      ]
+    },
+    {
+      "inputs": ["1", "0", "50", "1", "1", "0"],
+      "outputs": [
+        "Ik ben een Audi met nummerplaat 1-lvn-568",
+        "25050 km",
+        "21",
+        "liter",
+        "Kostprijs: 7500 euro"
+      ]
+    }
+  ]
+}
