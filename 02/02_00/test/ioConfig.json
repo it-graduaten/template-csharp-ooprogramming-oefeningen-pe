@@ -1,0 +1,65 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["Piet", "15", "8"],
+      "outputs": [
+        "Piet",
+        "----",
+        "Programmeren: 15",
+        "Netwerken: 8",
+        "Helaas u bent niet geslaagd!"
+      ]
+    },
+    {
+      "inputs": ["Piet", "15", "10"],
+      "outputs": [
+        "Piet",
+        "----",
+        "Programmeren: 15",
+        "Netwerken: 10",
+        "Proficiat u bent geslaagd!"
+      ]
+    },
+    {
+      "inputs": ["Jan", "8", "8"],
+      "outputs": [
+        "Jan",
+        "---",
+        "Programmeren: 8",
+        "Netwerken: 8",
+        "Helaas u bent niet geslaagd!"
+      ]
+    },
+    {
+      "inputs": ["Jan", "8", "15"],
+      "outputs": [
+        "Jan",
+        "---",
+        "Programmeren: 8",
+        "Netwerken: 15",
+        "Helaas u bent niet geslaagd!"
+      ]
+    },
+    {
+      "inputs": ["Laura", "12", "15"],
+      "outputs": [
+        "Laura",
+        "-----",
+        "Programmeren: 12",
+        "Netwerken: 15",
+        "Proficiat u bent geslaagd!"
+      ]
+    },
+    {
+      "inputs": ["Laura", "20", "20"],
+      "outputs": [
+        "Laura",
+        "-----",
+        "Programmeren: 20",
+        "Netwerken: 20",
+        "Proficiat u bent geslaagd!"
+      ]
+    }
+  ]
+}
