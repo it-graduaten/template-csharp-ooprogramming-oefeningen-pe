@@ -1,0 +1,51 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [2, 2, 1000, 1, 200, 4],
+      "outputs": [
+        "BE12 3456 7890 1234",
+        "->",
+        "Je huidig saldo bedraagt",
+        "800 euro"
+      ]
+    },
+    {
+      "inputs": ["1", "2", "200", 3, "4"],
+      "outputs": [
+        "BE12 3456 7890 1234",
+        "->",
+        "Je huidig saldo bedraagt",
+        "230 euro",
+        "De rentevoet bedraagt",
+        "15%"
+      ]
+    },
+    {
+      "inputs": ["1", 2, 400, 1, 100, "3", "3", "4"],
+      "outputs": [
+        "BE12 3456 7890 1234",
+        "->",
+        "Je huidig saldo bedraagt",
+        "396",
+        "De rentevoet bedraagt",
+        "15%"
+      ]
+    },
+    {
+      "inputs": ["2", "3", "4"],
+      "outputs": ["Deze optie is alleen beschikbaar bij een spaarrekening"]
+    },
+    {
+      "inputs": ["2", "3", "4"],
+      "outputs": [
+        "BE12 3456 7890 1234",
+        "->",
+        "Je huidig saldo bedraagt",
+        "0 euro",
+        "Het minimumbedrag bedraagt",
+        "-100 euro"
+      ]
+    }
+  ]
+}
