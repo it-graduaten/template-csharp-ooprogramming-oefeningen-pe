@@ -1,0 +1,41 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [1, "Minoes", 1],
+      "outputs": ["Minoes", "een Kat", "Miauw! Miauw!"]
+    },
+    {
+      "inputs": [1, "Minoes", 2, "Wat wil je eten?"],
+      "outputs": ["MAAAUWWW!"]
+    },
+    {
+      "inputs": [1, "Minoes", 3],
+      "outputs": ["RRR! RRRR! RRRRRRRR!"]
+    },
+    {
+      "inputs": [2, "Dumbo", 1],
+      "outputs": ["Dumbo", "een Olifant", "Pfwww! STOMP!"]
+    },
+    {
+      "inputs": [2, "Dumbo", 2, "Wat wil je eten?"],
+      "outputs": ["Pfwwwwwww!"]
+    },
+    {
+      "inputs": [2, "Dumbo", 3],
+      "outputs": ["STOMP! STOMP! STOMP!"]
+    },
+    {
+      "inputs": [3, "Poco", 1],
+      "outputs": ["Poco", "een Papegaai", "Krahh, Krahh! Wipo!"]
+    },
+    {
+      "inputs": [3, "Poco", 2, "Wat wil je eten?"],
+      "outputs": ["Krahh! Wat wil je eten?"]
+    },
+    {
+      "inputs": [3, "Poco", 3],
+      "outputs": ["Koko! koko! kokoooohh!"]
+    }
+  ]
+}
