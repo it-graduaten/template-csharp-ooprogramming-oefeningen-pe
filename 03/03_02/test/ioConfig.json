@@ -1,0 +1,30 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": ["5", "", "22/11/2022 12:30"],
+      "outputs": [
+        "Op 22/11/2022 12:30",
+        "5 graden Celsius",
+        "41 graden Fahrenheit"
+      ]
+    },
+    {
+      "inputs": ["8", "", "23/12/2022 15:45"],
+      "outputs": [
+        "Op 23/12/2022 15:45",
+        "8 graden Celsius",
+        "46,4 graden Fahrenheit"
+      ]
+    },
+
+    {
+      "inputs": ["16", "200", "23/12/2022 15:45"],
+      "outputs": [
+        "Op 23/12/2022 15:45",
+        "16 graden Celsius",
+        "200 graden Fahrenheit"
+      ]
+    }
+  ]
+}
