@@ -1,0 +1,5 @@
+2;ruiten;zwart
+9;harten;rood
+7;koeken;zwart
+4;klaveren;rood
+6;schoppen;zwart

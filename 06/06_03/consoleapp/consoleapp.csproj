@@ -11,4 +11,16 @@
     <InternalsVisibleTo Include="test" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="spel-1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="spel-2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="spel-3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
