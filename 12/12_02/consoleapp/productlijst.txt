@@ -1,0 +1,40 @@
+Stripboek;Asterix en de Goths;12.99;René Goscinny;48
+Stripboek;Kuifje in het Land van de Sovjets;9.99;Hergé;144
+Stripboek;Suske en Wiske - De Rode Ridder;14.99;Wil Vandersteen;56
+Stripboek;Donald Duck - De beste verhalen;8.99;Various;128
+Stripboek;Batman - The Killing Joke;19.99;Alan Moore;48
+Stripboek;Spider-Man - Kraven's Last Hunt;24.99;J.M. DeMatteis;96
+Stripboek;Maus;16.99;Art Spiegelman;296
+Stripboek;Calvin and Hobbes - The Essential Collection;29.99;Bill Watterson;256
+Stripboek;Lucky Luke - De Daltons in de Blizzard;10.99;René Goscinny;46
+Stripboek;Tintin - The Castafiore Emerald;11.99;Hergé;64
+Stripboek;Asterix en de intrigant;13.99;René Goscinny;48
+Stripboek;Suske en Wiske - De Schat van Beersel;12.99;Wil Vandersteen;64
+Stripboek;Donald Duck - Avonturen in Duckstad;7.99;Various;112
+Stripboek;Superman - Birthright;21.99;Mark Waid;208
+Stripboek;X-Men - Dark Phoenix Saga;27.99;Chris Claremont;208
+Stripboek;Garfield - His 9 Lives;15.99;Jim Davis;96
+Stripboek;Smurfs - The Purple Smurfs;9.99;Peyo;64
+Stripboek;Lucky Luke - De eenarmige bandiet;11.99;René Goscinny;46
+Stripboek;Tintin - Destination Moon;14.99;Hergé;64
+Stripboek;Asterix en het ijzeren schild;16.99;Jean-Yves Ferri;48
+Knuffel;Teddy Bear;14.99;12;8;20
+Knuffel;Cuddly Bunny;9.99;10;6;18
+Knuffel;Fluffy Kitty;12.99;15;10;25
+Knuffel;Friendly Elephant;18.99;18;12;30
+Knuffel;Sleepy Sloth;16.99;14;8;22
+Knuffel;Adorable Penguin;11.99;13;9;21
+Knuffel;Cheerful Giraffe;22.99;20;14;35
+Knuffel;Happy Hippo;19.99;17;11;28
+Knuffel;Silly Monkey;15.99;16;10;24
+Knuffel;Playful Dolphin;24.99;22;16;40
+Knuffel;Gentle Panda;20.99;19;13;32
+Knuffel;Funny Frog;13.99;11;7;15
+Knuffel;Cute Koala;17.99;21;15;27
+Knuffel;Whiskered Mouse;10.99;9;5;12
+Knuffel;Sweet Lamb;14.99;12;8;18
+Knuffel;Brave Lion;25.99;24;18;36
+Knuffel;Colorful Parrot;21.99;20;14;30
+Knuffel;Glowing Firefly;8.99;7;5;10
+Knuffel;Magical Unicorn;29.99;26;20;42
+Knuffel;Charming Hedgehog;12.99;11;7;14
