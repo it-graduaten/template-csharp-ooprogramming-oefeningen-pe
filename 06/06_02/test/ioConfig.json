@@ -1,0 +1,13 @@
+{
+  "fixtures": [],
+  "ioConfig": [
+    {
+      "inputs": [0, "John", "Doe"],
+      "outputs": ["13. John Doe"]
+    },
+    {
+      "inputs": [1, 10],
+      "outputs": ["8. Katrien Verhaeghe", "11. Nona Demets"]
+    }
+  ]
+}
