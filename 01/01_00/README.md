@@ -2,6 +2,8 @@
 
 ## Klassen
 
+### Gebruiker
+
 ![Klassediagram](svg/Gebruiker.svg)
 
 **Methode `Wissen`**
