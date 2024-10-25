@@ -4,7 +4,7 @@
 
 ### Overzicht
 
-![Klassediagram](svg/Overzicht.svg)
+![Klassediagram](svg/Overview.svg)
 
 ### Persoon
 
