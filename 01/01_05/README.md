@@ -12,3 +12,5 @@ Voor deze oefening maak je zelf een klasse zoals jij wilt. Een student object mo
 ## Console applicatie
 
 Maak een console applicatie die vraagt om naam en voornaam van een student in te geven. Vraag daarna zijn punten van wiskunde en informatica in te geven. Toon nadien een overzicht van de student met zijn naam, voornaam en punten.
+
+*De oplossing voor deze opdracht [vind je hier](https://gitpub.sebastiaanh.com/public/web/f02e8d40-aa4c-4a61-9c14-1d46138f6902)*
