@@ -41,4 +41,6 @@ Liters water = <LitersWater>
 
 ### Console applicatie
 
-Maak een console applicatie die de gebruiker vraagt om een breedte, lengte, diepte en randafstand in te geven in de volgorde zoals hier beschreven. Voorzie de correcte controles. Nadat de gebruiker deze gegevens heeft ingegeven, toon je
+Maak een console applicatie die de gebruiker vraagt om een breedte, lengte, diepte en randafstand in te geven in de volgorde zoals hier beschreven. Voorzie de correcte controles. Nadat de gebruiker deze gegevens heeft ingegeven, toon je de gegevens van het zwembad en sluit de applicatie af.
+
+*De oplossing voor deze opdracht [vind je hier](https://gitpub.sebastiaanh.com/public/web/f02e8d40-aa4c-4a61-9c14-1d46138f6902)*
