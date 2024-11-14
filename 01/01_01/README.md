@@ -43,4 +43,3 @@ Maak een keuze: 0
 
 De waarde van de teller is 1
 ```
-
