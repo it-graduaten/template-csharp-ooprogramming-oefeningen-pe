@@ -4,6 +4,8 @@
 
 ### Bmi
 
+![Klassediagram](svg/Bmi.svg)
+
 **Methode `BerekenBmi`**
 
 Deze methode berekent de Body Mass Index (BMI) van een persoon. De BMI wordt berekend door het gewicht in kilogram te delen door het kwadraat van de lengte in meter. Rond af tot op 1 cijfer na de komma. Gebruik hiervoor de methode `Math.Round`.
