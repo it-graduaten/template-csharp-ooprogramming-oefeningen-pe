@@ -5,24 +5,26 @@
 ### Persoon
 **Methode `ToonGegevens()`**
 Geeft de tekstuele voorstelling van het object als volgt
-Mijn naam is <Voornaam> <Achternaam>
+`Mijn naam is <Voornaam> <Achternaam>`
 
 ### Klant
 **Methode `ToonGegevens()`**
 Geeft de tekstuele voorstelling van het object als volgt
-Mijn naam is <Voornaam> <Achternaam> mijn klanten code: <KlantenCode>.
+`Mijn naam is <Voornaam> <Achternaam> mijn klanten code: <KlantenCode>`.
 
 **Methode `MaakRandomKlantenCode`**
-Deze methode zal een klantencode maken bestaande uit de initialen van de klant gevolgd door een willkeurig getal tussen 0 en 1000. Zorg er voor dat het getal telkens uit 4 cijfers bestaat. Bijvoorbeeld: JS0050 (John Smith met getal 50).
-Constructor
+Deze methode zal een klantencode maken bestaande uit de initialen van de klant gevolgd door een willkeurig getal tussen 0 en 1000. Zorg er voor dat het getal telkens uit 4 cijfers bestaat. Bijvoorbeeld: `JS0050 (John Smith met getal 50).`
+
+**Constructor**
 De klantencode wordt ingevuld met een willekeurige klantencode. Maak gebruik van de methode MaakRandomKlantenCode().
 
 
 ### Werknemer
 **Methode `ToonGegevens()`**
 Geeft de tekstuele voorstelling van het object als volgt
-Mijn naam is <Voornaam> <Achternaam> en ik verdien <Loon> euro per uur.
-Constructor
+`Mijn naam is <Voornaam> <Achternaam> en ik verdien <Loon> euro per uur.`
+
+**Constructor**
 Het loon wordt bij een nieuwe werknemer ingesteld op 10,20 euro.
 
 
