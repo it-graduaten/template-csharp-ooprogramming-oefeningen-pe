@@ -8,19 +8,19 @@
 
 **Statische methode `OppervlakteRechthoek`**
 Deze methode zal de oppervlakte van een rechthoek berekenen aan de hand van de meegegeven lengte en breedte.
-De formule hiervoor is: <lengte> * <breedte>
+De formule hiervoor is: `<lengte> * <breedte>`
 
 **Statische methode `OppervlakteCirkel`**
 Deze methode zal de oppervlakte van een cirkel berekenen aan de hand van de meegegeven straal.
-De formule hiervoor is: π * <straal>²
+De formule hiervoor is: `π * <straal>²`
 
 **Statische methode `VolumeBalk`**
 Deze methode zal de volume van een balk berekenen aan de hand van de meegegeven lengte, breedte en hoogte.
-De formule hiervoor is: <lengte> * <breedte> * <hoogte>
+De formule hiervoor is: `<lengte> * <breedte> * <hoogte>`
 
 **Statische methode `VolumeCilinder`**
 Deze methode zal de volume van een cilinder berekenen aan de hand van de meegegeven straal en hoogte.
-De formule hiervoor is: π * <straal>² * <hoogte>
+De formule hiervoor is: `π * <straal>² * <hoogte>`
 
 
 ## Console applicatie
