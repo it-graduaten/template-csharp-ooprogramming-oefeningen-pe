@@ -8,10 +8,10 @@
 
 **Statische methode `ConverteerNaarGradenCelsius`**
 Deze methode moet graden Celsius berekenen aan de hand van de meegegeven graden Fahrenheit.
-De formule hiervoor is: (<gradenFahrenheit> - 32) * 5 / 9.
+De formule hiervoor is: `(<gradenFahrenheit> - 32) * 5 / 9`.
 **Statische methode `ConverteerNaarGradenFahrenheit`**
 Deze methode moet graden Fahrenheit berekenen aan de hand van de meegegeven graden Celsius.
-De formule hiervoor is: (<gradenCelsius> x 9 / 5) + 32.
+De formule hiervoor is: `(<gradenCelsius> x 9 / 5) + 32`.
 
 ### Meting
 
