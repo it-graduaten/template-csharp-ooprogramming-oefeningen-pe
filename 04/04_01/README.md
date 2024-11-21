@@ -4,52 +4,52 @@
 
 ### Punt
 **Property `Omschrijving`**
-Dit geeft als returnwaarde de tekstuele waarde <klassenaam>:coord=(<X>,<Y>) Tip: De klassenaam is op te vragen door de methode this.GetType().Name
+Dit geeft als returnwaarde de tekstuele waarde `<klassenaam>:coord=(<X>,<Y>)` Tip: De klassenaam is op te vragen door de methode this.GetType().Name
 **Methode `ToonGegevens()`**
 Returnwaarde is de omschrijving.
 
 ### Cirkel
 **Property `Omschrijving`**
 Dit geeft als returnwaarde de waarde
-<klassenaam>:coord=(<X>,<Y>) straal <R>
+`<klassenaam>:coord=(<X>,<Y>) straal <R>`
 Tip: De klassenaam is op te vragen door de methode this.GetType().Name
 
 **Methode `Omtrek()`**
 Returnwaarde is de omtrek van de cirkel
-Formule: 2 * π * r. Rond af tot 2 cijfers na de komma adhv Math.Round().
+Formule: `2 * π * r`. Rond af tot 2 cijfers na de komma adhv Math.Round().
 
 **Methode `Oppervlakte()`**
 Returnwaarde is de oppervlakte van de cirkel
-Formule: π * r². Rond af tot 2 cijfers na de komma adhv Math.Round().
+Formule: `π * r²`. Rond af tot 2 cijfers na de komma adhv Math.Round().
 
 **Methode `ToonGegevens()`**
 Geeft de tekstuele voorstelling van het object als volgt
-<klassenaam>:coord=(<X>,<Y>) straal <R>
+`<klassenaam>:coord=(<X>,<Y>) straal <R>
 Oppervlakte: <Oppervlakte>
-Omtrek: <Omtrek>
+Omtrek: <Omtrek>`
 Maak gebruik van de property Omschrijving!
 
 ### Cilinder
 **Property `Omschrijving`**
 Dit geeft als returnwaarde de waarde
-<klassenaam>:coord=(<X>,<Y>) straal <R>, hoogte<H>
+`<klassenaam>:coord=(<X>,<Y>) straal <R>, hoogte<H>`
 Tip: De klassenaam is op te vragen door de methode this.GetType().Name
 
 **Methode `Volume()`**
 Berekent het volume van de cilinder
-Formule = π * r² * h
+Formule = `π * r² * h`
 Maak gebruik van de oppervlakte van de cirkel die in de klasse Cirkel is aangemaakt
 
 **Methode `Oppervlakte()`**
 Berekent de oppervlakte van de cilinder
-Formule = 2 * π * r² + 2 * π * r * h
+Formule = `2 * π * r² + 2 * π * r * h`
 Maak in de formule gebruik van de oppervlakte en de omtrek die in de klasse Cirkel is aangemaakt
 
 **Methode `ToonGegevens()`**
 Geeft de tekstuele voorstelling van het object als volgt
-<klassenaam>:coord=(<X>,<Y>) straal <R>, hoogte<H>
+`<klassenaam>:coord=(<X>,<Y>) straal <R>, hoogte<H>
 Oppervlakte: <Oppervlakte>
-Volume: <Volume>
+Volume: <Volume>`
 Maak gebruik van de property Omschrijving!
 
 ## Console applicatie
