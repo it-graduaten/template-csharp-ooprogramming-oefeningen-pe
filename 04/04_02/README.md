@@ -1,6 +1,9 @@
 # 04_02
 
 ## Klassen
+
+![Klassendiagram](svg/Overview.svg)
+
 Het saldo mag niet onder minimum komen. Bij foutieve waarde wordt het saldo op het minimum ingesteld.
 De landcode geeft de eerste 2 karakters van het iban-nummer terug.
 Bij het aanmaken van een spaarrekening, zal standaard een percentage voorzien worden van 5%.
