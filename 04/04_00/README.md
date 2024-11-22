@@ -2,12 +2,22 @@
 
 ## klassen
 
+### Overzicht
+
+![Klassendiagram](svg/Overview.svg)
+
 ### Persoon
+
+![Klassendiagram](svg/Persoon.svg)
+
 **Methode `ToonGegevens()`**
 Geeft de tekstuele voorstelling van het object als volgt
 `Mijn naam is <Voornaam> <Achternaam>`
 
 ### Klant
+
+![Klassendiagram](svg/Klant.svg)
+
 **Methode `ToonGegevens()`**
 Geeft de tekstuele voorstelling van het object als volgt
 `Mijn naam is <Voornaam> <Achternaam> mijn klanten code: <KlantenCode>`.
@@ -20,6 +30,9 @@ De klantencode wordt ingevuld met een willekeurige klantencode. Maak gebruik van
 
 
 ### Werknemer
+
+![Klassendiagram](svg/Werknemer.svg)
+
 **Methode `ToonGegevens()`**
 Geeft de tekstuele voorstelling van het object als volgt
 `Mijn naam is <Voornaam> <Achternaam> en ik verdien <Loon> euro per uur.`
