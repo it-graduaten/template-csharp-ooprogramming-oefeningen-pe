@@ -2,13 +2,23 @@
 
 ## Klassen
 
+### Overzicht
+
+![Klassendiagram](svg/Overview.svg)
+
 ### Punt
+
+![Klassendiagram](svg/Punt.svg)
+
 **Property `Omschrijving`**
 Dit geeft als returnwaarde de tekstuele waarde `<klassenaam>:coord=(<X>,<Y>)` Tip: De klassenaam is op te vragen door de methode this.GetType().Name
 **Methode `ToonGegevens()`**
 Returnwaarde is de omschrijving.
 
 ### Cirkel
+
+![Klassendiagram](svg/Cirkel.svg)
+
 **Property `Omschrijving`**
 Dit geeft als returnwaarde de waarde
 `<klassenaam>:coord=(<X>,<Y>) straal <R>`
@@ -30,6 +40,9 @@ Omtrek: <Omtrek>`
 Maak gebruik van de property Omschrijving!
 
 ### Cilinder
+
+![Klassendiagram](svg/Cilinder.svg)
+
 **Property `Omschrijving`**
 Dit geeft als returnwaarde de waarde
 `<klassenaam>:coord=(<X>,<Y>) straal <R>, hoogte<H>`
