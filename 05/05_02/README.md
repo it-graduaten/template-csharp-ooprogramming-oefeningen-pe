@@ -5,7 +5,9 @@
 ![Klassediagram](svg/Overview.svg)
 
 ### Dier
+
 ![Klassediagram](svg/Dier.svg)
+
 - De gegevens van een dier worden als volgende tekstuele waarde weergegeven:
 Mijn naam is <Naam> en ik ben een <klassenaam>.
 - De methode ToString() geeft de gegevens van het dier weer.
@@ -14,21 +16,27 @@ Mijn naam is <Naam> en ik ben een <klassenaam>.
 - Wanneer een dier praat, zal er geen geluid gemaakt worden. De geluiden van het strelen en praten wordt specifiek per dier bepaald.
 
 ### Kat
+
 ![Klassediagram](svg/Kat.svg)
+
 - De gegevens van een kat worden als volgende tekstuele waarde weergegeven:
 Mijn naam is <Naam> en ik ben een <klassenaam>. Miauw! Miauw!
 - Wanneer een kat gestreeld wordt, zal deze "RRR! RRRR! RRRRRRRR!" als geluid maken.
 - Wanneer een kat praat, zal deze "MAAAUWWW!" als geluid maken
 
 ### Papegaai
+
 ![Klassediagram](svg/Papegaai.svg)
+
 - De gegevens van een papegaai worden als volgende tekstuele waarde weergegeven:
 Mijn naam is <Naam> en ik ben een <klassenaam>. Krahh, Krahh! Wipo!
 - Wanneer een papegaai gestreeld wordt, zal deze "Koko! koko! kokoooohh!" als geluid maken.
 - Wanneer een papegaai praat, zal deze "Krahh! <zin>" als geluid maken.
 
 ### Olifant
+
 ![Klassediagram](svg/Olifant.svg)
+
 - De gegevens van een olifant worden als volgende tekstuele waarde weergegeven:
 Mijn naam is <Naam> en ik ben een <klassenaam>. Pfwww! STOMP!
 - Wanneer een olifant gestreeld wordt, zal deze "STOMP! STOMP! STOMP!" als geluid maken.
@@ -37,6 +45,7 @@ Mijn naam is <Naam> en ik ben een <klassenaam>. Pfwww! STOMP!
 Tip: Kopieer de geluiden om spelfouten te vermijden.
 
 ## Console applicaties
+
 Bij het opstarten van de applicatie krijgt de gebruiker een menu met de volgende opties:
 
 ```
