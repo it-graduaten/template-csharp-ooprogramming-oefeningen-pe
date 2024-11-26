@@ -3,7 +3,9 @@
 Maak een applicatie die het mogelijk maakt voor een winkelier om te berekenen wat zijn eigen inkomen is en dat van zijn medewerkers. Bekijk de voorbeelden voor de correcte werking. Het maandloon wordt berekend op basis van een werkweek van 40 uur, waarbij een maand 4 weken telt.
 
 ![Klassediagram](svg/Overview.svg)
+
 ![Klassediagram](svg/Eigenaar.svg)
+
 ![Klassediagram](svg/Medewerker.svg)
 
 ```
