@@ -9,7 +9,7 @@
 ![Klassediagram](svg/Dier.svg)
 
 - De gegevens van een dier worden als volgende tekstuele waarde weergegeven:
-Mijn naam is <Naam> en ik ben een <klassenaam>.
+Mijn naam is `Naam` en ik ben een `klassenaam`.
 - De methode ToString() geeft de gegevens van het dier weer.
 - Dieren zijn hetzelfde wanneer het type en naamgeving overeenkomt.
 - Wanneer een dier gestreeld wordt, zal er geen geluid gemaakt worden.
@@ -20,7 +20,7 @@ Mijn naam is <Naam> en ik ben een <klassenaam>.
 ![Klassediagram](svg/Kat.svg)
 
 - De gegevens van een kat worden als volgende tekstuele waarde weergegeven:
-Mijn naam is <Naam> en ik ben een <klassenaam>. Miauw! Miauw!
+Mijn naam is `Naam` en ik ben een `klassenaam`. Miauw! Miauw!
 - Wanneer een kat gestreeld wordt, zal deze "RRR! RRRR! RRRRRRRR!" als geluid maken.
 - Wanneer een kat praat, zal deze "MAAAUWWW!" als geluid maken
 
@@ -29,16 +29,16 @@ Mijn naam is <Naam> en ik ben een <klassenaam>. Miauw! Miauw!
 ![Klassediagram](svg/Papegaai.svg)
 
 - De gegevens van een papegaai worden als volgende tekstuele waarde weergegeven:
-Mijn naam is <Naam> en ik ben een <klassenaam>. Krahh, Krahh! Wipo!
+Mijn naam is `Naam` en ik ben een `klassenaam`. Krahh, Krahh! Wipo!
 - Wanneer een papegaai gestreeld wordt, zal deze "Koko! koko! kokoooohh!" als geluid maken.
-- Wanneer een papegaai praat, zal deze "Krahh! <zin>" als geluid maken.
+- Wanneer een papegaai praat, zal deze "Krahh! `Zin`" als geluid maken. Een papegaai herhaalt dus de zin die ingegeven wordt.
 
 ### Olifant
 
 ![Klassediagram](svg/Olifant.svg)
 
 - De gegevens van een olifant worden als volgende tekstuele waarde weergegeven:
-Mijn naam is <Naam> en ik ben een <klassenaam>. Pfwww! STOMP!
+Mijn naam is `Naam` en ik ben een `klassenaam`. Pfwww! STOMP!
 - Wanneer een olifant gestreeld wordt, zal deze "STOMP! STOMP! STOMP!" als geluid maken.
 - Wanneer een olifant praat, zal deze "Pfwwwwwww!" als geluid maken.
 
