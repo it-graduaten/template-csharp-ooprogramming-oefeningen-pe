@@ -2,8 +2,55 @@
   "fixtures": [],
   "ioConfig": [
     {
-      "inputs": [],
-      "outputs": []
+      "inputs": [1, 5, 1],
+      "outputs": [
+        "123 Main Street",
+        "200 vierkante meter",
+        "1960",
+        "al aanwezig",
+        "4"
+      ]
+    },
+    {
+      "inputs": [1, 5, 2],
+      "outputs": ["verbruik", "205"]
+    },
+    {
+      "inputs": [2, 1, 1],
+      "outputs": [
+        "Apt 101, 456 High Rise Lane",
+        "120 vierkante meter",
+        "2000",
+        "al aanwezig",
+        "300"
+      ]
+    },
+    {
+      "inputs": [2, 5, 2],
+      "outputs": ["huurprijs", "950 euro"]
+    },
+    {
+      "inputs": [4, 1, 1],
+      "outputs": [
+        "456 Oak Avenue",
+        "150 vierkante meter",
+        "2005",
+        "nog niet aanwezig",
+        "3"
+      ]
+    },
+    {
+      "inputs": [4, 1, 1],
+      "outputs": [
+        "1. Huis - 123 Main Street",
+        "2. Appartement - Apt 101, 456 High Rise Lane",
+        "3. Appartement - Apt 202, 789 City View Plaza",
+        "4. Huis - 456 Oak Avenue",
+        "5. Appartement - Apt 303, 123 Urban Towers",
+        "6. Huis - 789 Pine Lane",
+        "7. Huis - 101 Maple Drive",
+        "8. Appartement - Apt 404, 567 Metro Heights"
+      ]
     }
   ]
 }
