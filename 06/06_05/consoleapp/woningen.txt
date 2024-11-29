@@ -1,0 +1,8 @@
+Huis;123 Main Street;200;1960;true;4
+Appartement;Apt 101, 456 High Rise Lane;120;2000;true;10;300
+Appartement;Apt 202, 789 City View Plaza;90;2015;false;5;250
+Huis;456 Oak Avenue;150;2005;false;3
+Appartement;Apt 303, 123 Urban Towers;150;1995;true;8;350
+Huis;789 Pine Lane;180;1985;true;5
+Huis;101 Maple Drive;220;2010;false;6
+Appartement;Apt 404, 567 Metro Heights;110;2008;false;3;200
