@@ -243,3 +243,7 @@ Maak een keuze (1-3): 3
 
 De huurprijs van deze woning is 890 euro.
 ```
+
+## Oplossing
+
+De oplossing voor deze opdracht [vind je hier](https://gitpub.sebastiaanh.com/public/web/ceee4f4a-4330-4561-a785-913b487f1f76)
