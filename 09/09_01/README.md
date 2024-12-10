@@ -2,7 +2,11 @@
 
 ## Klassen
 
+![Klassendiagram](svg/Overview.svg)
+
 ### Verwarming
+
+![Klassendiagram](svg/Verwarming.svg)
 
 **Constructor**
 
@@ -10,11 +14,15 @@ De standaardwaarde is 0 graden en uitgeschakeld.
 
 ### Licht
 
+![Klassendiagram](svg/Licht.svg)
+
 **Constructor**
 
 De standaardwaarde is uitgeschakeld.
 
 ### Plc
+
+![Klassendiagram](svg/Plc.svg)
 
 **Property `Keukenlicht`**
 
