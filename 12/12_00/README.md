@@ -2,12 +2,15 @@
 
 ## Klassen
 
-Begin met het kopieren van de oplossing van oefening 04.02 naar deze oefening. Verwijder de validatie die op de property `Saldo` staat.
-
-Maak een extra klasse `SaldoOnderNulException` die een exception voorstelt wanneer het saldo onder nul gaat. Deze klasse moet overerven van `Exception`.
-
-In de klasse `Bankrekening` pas je de methode `Afhalen` aan zodat deze een exception `SaldoOnderNulException` gooit wanneer het saldo onder nul gaat.
+1. Controleer alle klassen op fouten.
+   1. Syntax fouten.
+   2. Logische fouten.
+   3. Runtime fouten
+2. Zorg dat alle fouten worden opgevangen
+   1. Zorg voor validatie waar mogelijk
+   2. Zorg voor foutafhandeling waar nodig
+3. Voeg loggin toe om alle fouten te kunnen traceren.
 
 ## Console applicatie
 
-Wanneer er te veel geld wordt afgehaald, moet de console applicatie een foutmelding geven. Deze foutmelding moet worden opgevangen en de exception message weergeven.
+De console applicatie moet een bestandsnaam opvragen. Hierna moet de applicatie de inhoud van het bestand tonen.
