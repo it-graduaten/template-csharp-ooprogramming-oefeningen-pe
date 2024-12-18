@@ -3,6 +3,8 @@
 Voor deze oefening heb je volgend bestand nodig:
 - productlijst.txt
 
+![Klassendiagram](svg/Product.svg)
+
 ## Klasse Product
 **Property `Naam`**
 
@@ -34,6 +36,8 @@ Geeft een tekstuele voorstelling van het product in de vorm van "<TypeNaam> <Naa
 
 Geeft een meer uitgebreide tekstuele voorstelling van de productgegevens, inclusief naam en prijs.
 
+![Klassendiagram](svg/Stripboek.svg)
+
 ## Klasse Stripboek
 **Property `Auteur`**
 
@@ -60,6 +64,8 @@ Genereert een hashcode op basis van de eigenschappen van zowel het product als h
 **Methode `ToonGegevens`**
 
 Geeft een meer uitgebreide tekstuele voorstelling van de stripboekgegevens, inclusief naam, prijs, auteur en aantal pagina's. Roep de ToonGegevens-methode van de basisklasse aan om de gemeenschappelijke gegevens weer te geven.
+
+![Klassendiagram](svg/Knuffel.svg)
 
 ## Klasse Knuffel
 **Property `Lengte`**
@@ -91,8 +97,9 @@ Genereert een hashcode op basis van de eigenschappen van zowel het product als d
 
 **Methode `ToonGegevens`**
 
-Methode ToonGegevens:
 Geeft een meer uitgebreide tekstuele voorstelling van de knuffelgegevens, inclusief naam, prijs en afmetingen. Roep de ToonGegevens-methode van de basisklasse aan om de gemeenschappelijke gegevens weer te geven.
+
+![Klassendiagram](svg/FileOperations.svg)
 
 ## Klasse FileOperations
 
@@ -115,17 +122,23 @@ Maakt dynamisch de juiste subclass (ofwel Stripboek of Knuffel) op basis van het
 Logt een uitzondering (Exception) naar het bestand foutenbestand.txt.
 Gebruikt een StreamWriter om de foutinformatie (type, bericht en stacktrace) naar het bestand te schrijven.
 
+![Klassendiagram](svg/LegeTekstueleWaardeException.svg)
+
 ## Klasse LegeTekstueleWaardeException
 **Constructor `LegeTekstueleWaardeException(string attribuut)`**
 
 Initialiseert een nieuwe uitzondering met de opgegeven attribuutnaam.
 Het bericht van de uitzondering wordt dynamisch gegenereerd om aan te geven welke tekstuele waarde niet leeg mag zijn.
 
+![Klassendiagram](svg/NumeriekeWaardeOnderNulException.svg)
+
 ## Klasse NumeriekeWaardeOnderNulException
-**Constructor `NumeriekeWaardeOnderNulException(string attribuut)
-`**
+**Constructor `NumeriekeWaardeOnderNulException(string attribuut)`**
+
 Initialiseert een nieuwe uitzondering met de opgegeven attribuutnaam.
 Het bericht van de uitzondering wordt dynamisch gegenereerd om aan te geven welk attribuut onder nul mag zijn.
+
+![Klassendiagram](svg/ProductBestaatReedsException.svg)
 
 ## Klasse ProductBestaatReedsException
 **Constructor `ProductBestaatReedsException()`**
