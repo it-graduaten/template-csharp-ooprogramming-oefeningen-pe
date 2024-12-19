@@ -30,7 +30,7 @@ Genereert een hashcode op basis van de naam en het type van het product.
 
 **Methode `ToString`**
 
-Geeft een tekstuele voorstelling van het product in de vorm van "<TypeNaam> <Naam> (<Prijs>)".
+Geeft een tekstuele voorstelling van het product in de vorm van "`TypeNaam` `Naam` (`Prijs`)".
 
 **Methode `ToonGegevens`**
 
