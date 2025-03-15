@@ -14,9 +14,9 @@ Maak een applicatie die het mogelijk maakt om geldigheid te controleren van pers
     - Voor rijksregisternummers met een even jaartal:
     Neem de eerste 9 getallen van het nummer en deel deze door 97. Van deze deling heb je de rest nodig. Trek nu die rest af van 97. Het verschil (dus 97 - rest) moet overeenkomen met het controlegetal.
 
-    Vb: rijksregisternummer 65041523034
-    650415230 / 97 = 6705311 rest 63
-    97-63 = 34 -> komt overeen met het controlegetal -> geldig rijksregisternummer
+    Vb: rijksregisternummer 54041523094
+    540415230 / 97 = 5571291 rest 3
+    97-3 = 94 -> komt overeen met het controlegetal -> geldig rijksregisternummer
 
     - Voor rijksregisternummer met een oneven jaartal:
     Neem de cijfers op de plaats xxx (dus tussen de geboortedag en het controlegetal). Plaats voor deze getallen een 2. Deel nu dit getal door 20 en neem de rest hiervan. Het rijksregisternummer is geldig als deze rest gelijk is aan het controlegetal.
