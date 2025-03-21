@@ -2,7 +2,14 @@
   "fixtures": [],
   "ioConfig": [
     {
-      "inputs": [1, 5, 1],
+      "inputs": [
+        2,
+        5,
+        1,
+        "",
+        1,
+        ""
+      ],
       "outputs": [
         "123 Main Street",
         "200 vierkante meter",
@@ -12,11 +19,30 @@
       ]
     },
     {
-      "inputs": [1, 5, 2],
-      "outputs": ["verbruik", "205"]
+      "inputs": [
+        2,
+        5,
+        2,
+        2,
+        3,
+        18,
+        "",
+        1,
+        ""
+      ],
+      "outputs": [
+        "verbruik",
+        "280"
+      ]
     },
     {
-      "inputs": [2, 1, 1],
+      "inputs": [
+        3,
+        1,
+        "",
+        1,
+        ""
+      ],
       "outputs": [
         "Apt 101, 456 High Rise Lane",
         "120 vierkante meter",
@@ -26,30 +52,54 @@
       ]
     },
     {
-      "inputs": [2, 5, 2],
-      "outputs": ["huurprijs", "950 euro"]
+      "inputs": [
+        3,
+        5,
+        2,
+        6,
+        "",
+        1,
+        ""
+      ],
+      "outputs": [
+        "huurprijs",
+        "980 euro"
+      ]
     },
     {
-      "inputs": [4, 1, 1],
+      "inputs": [
+        5,
+        1,
+        "",
+        1,
+        ""
+      ],
       "outputs": [
         "456 Oak Avenue",
         "150 vierkante meter",
         "2005",
-        "nog niet aanwezig",
+        "niet aanwezig",
         "3"
       ]
     },
     {
-      "inputs": [4, 1, 1],
+      "inputs": [
+        5,
+        1,
+        "",
+        1,
+        ""
+      ],
       "outputs": [
-        "1. Huis - 123 Main Street",
-        "2. Appartement - Apt 101, 456 High Rise Lane",
-        "3. Appartement - Apt 202, 789 City View Plaza",
-        "4. Huis - 456 Oak Avenue",
-        "5. Appartement - Apt 303, 123 Urban Towers",
-        "6. Huis - 789 Pine Lane",
-        "7. Huis - 101 Maple Drive",
-        "8. Appartement - Apt 404, 567 Metro Heights"
+        "1. Stop",
+        "2. Huis - 123 Main Street",
+        "3. Appartement - Apt 101, 456 High Rise Lane",
+        "4. Appartement - Apt 202, 789 City View Plaza",
+        "5. Huis - 456 Oak Avenue",
+        "6. Appartement - Apt 303, 123 Urban Towers",
+        "7. Huis - 789 Pine Lane",
+        "8. Huis - 101 Maple Drive",
+        "9. Appartement - Apt 404, 567 Metro Heights"
       ]
     }
   ]
