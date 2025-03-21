@@ -22,6 +22,12 @@ Deze methode geeft een ander tekstueel voorbeeld van de woning een voorbeeld hie
 De woning gelegen te 123 Urban Towers heeft een oppervlakte van 150 vierkante meter en is gebouwd in 1995. Zonnepanelen zijn al aanwezig.
 ```
 
+OF
+
+```plaintext
+De woning gelegen te 123 Urban Towers heeft een oppervlakte van 150 vierkante meter en is gebouwd in 1995. Zonnepanelen zijn niet aanwezig.
+```
+
 **Methode `Equals`**
 
 Deze methode controleert of twee woningen hetzelfde zijn. Twee woningen zijn hetzelfde wanneer hun type en adres hetzelfde zijn.
@@ -65,18 +71,6 @@ De woning gelegen te 123 Urban Towers heeft een oppervlakte van 150 vierkante me
 De vaste kosten voor dit appartement zijn 350 euro.
 ```
 
-### VerbruikHelper
-
-![Klassendiagram](svg/VerbruikHelper.svg)
-
-**Methode `BerekenVerbruikObvEPeil`**
-
-Deze methode berekent het verbruik obv het e-peil dat meegegeven wordt. Het extra verbruik wordt berekend door het e-peil te vermenigvuldigen met 5 kWh. Dit extra verbruik wordt bij het originele verbruik opgeteld.
-
-**Methode `BerekenVerbruikVoorEpcA`**
-
-Deze methode berekent het verbruik voor een EPC A woning. Het verbruik wordt berekend door het het originele verbruik te verminderen met 10%. Je kan dit doen door het originele verbruik te vermenigvuldigen met 0.9.
-
 ### FileOperations
 
 ![Klassendiagram](svg/FileOperations.svg)
@@ -110,140 +104,160 @@ Appartement;Apt 404, 567 Metro Heights;110;2008;false;3;200
 
 ### Werking
 
-Bij het starten van de applicatie krijgt de gebruiker een overzicht van alle woningen te zien. Deze zijn genummerd.
+Bij het starten van de applicatie krijgt de gebruiker een overzicht van alle woningen te zien, waarbij **optie 1 altijd ‘Stop’ is**. De overige opties verwijzen naar woningen uit het bestand.
 
-De gebruiker kan nu een van de woningen kiezen aan de hand van de nummer. Daarna wordt er gevraagd met hoeveel personen je in deze woning woont.
+De gebruiker kan:
 
-Hierna krijgt de gebruiker drie keuzes: info over de woning geven, het verbruik berekenen of de huurprijs berekenen.
+- **Optie 1 kiezen om de applicatie te stoppen**.
+- **Een andere optie kiezen om een woning te selecteren**.
 
-- Indien er gekozen wordt voor info over de woning, wordt de info van de woning getoond.
-- Indien er gekozen wordt voor het verbruik berekenen, wordt vervolgens het EPC en het E-peil opgevraagd.
-  - Indien het om een EPC 'A' woning gaat, wordt het verbruik voor een EPC 'A' woning berekend.
-  - Indien het om een ander EPC gaat, wordt het verbruik berekend obv het E-peil.
-  - Toon het verbruik aan de gebruiker.
-- Indien er gekozen wordt voor de huurprijs berekenen
-  - Toon de huurprijs aan de gebruiker.
+Na het selecteren van een woning wordt gevraagd wat de gebruiker wil weten:
 
-Bekijk de voorbeelden voor de exacte werking.
+- Voor een **Huis**:
+  - Info over het huis
+  - Info over het verbruik
+- Voor een **Appartement**:
+  - Info over het appartement
+  - Info over de huurprijs
+
+**Info over het huis/appartement**
+Dit zal het huis/appartement textueel printen a.d.h.v. de ```ToString``` methode.
+
+**Info over het verbruik (huis)**
+Voor het berekenen van het verbruik van een huis gebruiken we de ```BerekenVerbruik``` methode in klasse ```Huis```. Dit geeft ons het standaard verbruik zonder rekening te houden met de EPC. Om rekening te houden met de EPC zullen we volgende formule gebruiken:
+
+- Wanneer het huis een EPC A label heeft:
+  - Het verbruik wordt berekend door het het originele verbruik te verminderen met 10%. Je kan dit doen door het originele verbruik te vermenigvuldigen met 0.9.
+- Wanneer het huis geen EPC A label heeft:
+  - Het extra verbruik wordt berekend door het e-peil te vermenigvuldigen met 5 kWh. Dit extra verbruik wordt bij het originele verbruik opgeteld.
+
+Vervolgens zal de waarde worden afgedrukt op het scherm. ```Het verbruik van dit huis is <<totaalVerbruik>> kWh.```
+
+**Info over de huurprijs (appartement)**
+Dit zal de huurprijs per maand afdrukken. ```De huurprijs van dit appartement bedraagt <<huurprijs>> euro/maand.```
+
+
+**Na de gekozen actie keert het programma automatisch terug naar het hoofdmenu**, zodat de gebruiker opnieuw een keuze kan maken of de applicatie kan stoppen.
+
+---
 
 ### Voorbeelden
 
-
-Een huis wordt gekozen. We vragen informatie hierover.
+#### Applicatie start, gebruiker kiest woning en vraagt info
 
 ```plaintext
-Overzicht van de woningen:
-1. Huis - 123 Main Street
-2. Appartement - Apt 101, 456 High Rise Lane
-3. Appartement - Apt 202, 789 City View Plaza
-4. Huis - 456 Oak Avenue
-5. Appartement - Apt 303, 123 Urban Towers
-6. Huis - 789 Pine Lane
-7. Huis - 101 Maple Drive
-8. Appartement - Apt 404, 567 Metro Heights
-Welke woning wil je bekijken (1-8): 1
+Welkom bij de woning applicatie!
 
-Met hoeveel personen woon je in deze woning?
-Aantal personen (1-10): 5
+Gelieve een woning uit te kiezen uit deze lijst:
+1. Stop
+2. Huis - 123 Main Street
+3. Appartement - Apt 101, 456 High Rise Lane
+4. Appartement - Apt 202, 789 City View Plaza
+5. Huis - 456 Oak Avenue
+6. Appartement - Apt 303, 123 Urban Towers
+7. Huis - 789 Pine Lane
+8. Huis - 101 Maple Drive
+9. Appartement - Apt 404, 567 Metro Heights
 
-1. Info over de woning
+Maak een keuze (1-9): 2
+
+Wat wenst u te weten over deze woning?
+1. Info over het huis
 2. Info over het verbruik
-3. Info over de huurprijs
-Maak een keuze (1-3): 1
+
+Maak een keuze: 1
 
 De woning gelegen te 123 Main Street heeft een oppervlakte van 200 vierkante meter en is gebouwd in 1960. Zonnepanelen zijn al aanwezig.
 Er zijn 4 kamers.
+Druk op enter om verder te gaan...
+
+Gelieve een woning uit te kiezen uit deze lijst:
+1. Stop
+2. Huis - 123 Main Street
+3. Appartement - Apt 101, 456 High Rise Lane
+...
+
+Maak een keuze (1-9):1
+
+Bedankt om de woning applicatie te gebruiken!
 ```
 
-Een huis wordt gekozen. We berekenen het verbruik.
+#### Gebruiker kiest huis, kiest verbruik, EPC A
 
 ```plaintext
-...
-Welke woning wil je bekijken (1-8): 1
+Maak een keuze (1-9): 2
 
-Met hoeveel personen woon je in deze woning?
-Aantal personen (1-10): 5
-
-1. Info over de woning
+Wat wenst u te weten over deze woning?
+1. Info over het huis
 2. Info over het verbruik
-3. Info over de huurprijs
-Maak een keuze (1-3): 2
+Maak een keuze: 2
 
+Met hoeveel personen woon je in deze woning (1-10)? 5
+Maak een keuze uit de EPC lijst:
 1. A
 2. B
 3. C
 4. D
 5. E
 6. F
-Welk EPC heeft de woning? (1-6): 1
 
-Geef het E-Peil van de woning (1-20): 10
+Geef de EPC van het huis (1-6): 1
 
-Het verbruik van deze woning is 184,5 kWh.
+Het verbruik van dit huis is 184,5 kWh.
+Druk op enter om verder te gaan...
 ```
 
-Een huis wordt gekozen. We berekenen het verbruik van de woning.
+#### Gebruiker kiest huis, kiest verbruik, EPC B
 
 ```plaintext
-...
-Welke woning wil je bekijken (1-8): 1
+Maak een keuze (1-9): 5
 
-Met hoeveel personen woon je in deze woning?
-Aantal personen (1-10): 5
-
-1. Info over de woning
+Wat wenst u te weten over deze woning?
+1. Info over het huis
 2. Info over het verbruik
-3. Info over de huurprijs
-Maak een keuze (1-3): 2
+Maak een keuze: 2
 
+Met hoeveel personen woon je in deze woning (1-10)? 6
+Maak een keuze uit de EPC lijst:
 1. A
 2. B
 3. C
 4. D
 5. E
 6. F
-Welk EPC heeft de woning? (1-6): 2
 
-Geef het E-Peil van de woning (1-20): 10
+Geef de EPC van het huis (1-6): 3
+Geef het E-Peil van het huis (1-20): 8
 
-Het verbruik van deze woning is 255 kWh.
+Het verbruik van dit huis is 170 kWh.
+Druk op enter om verder te gaan...
 ```
 
-Een appartement wordt gekozen. We vragen informatie hierover.
+#### Gebruiker kiest appartement en vraagt huurprijs
 
 ```plaintext
-...
-Welke woning wil je bekijken (1-8): 2
+Maak een keuze (1-9): 3
 
-Met hoeveel personen woon je in deze woning?
-Aantal personen (1-10): 5
+Wat wenst u te weten over deze woning?
+1. Info over het appartement
+2. Info over de huurprijs
 
-1. Info over de woning
-2. Info over het verbruik
-3. Info over de huurprijs
-Maak een keuze (1-3): 1
+Maak een keuze: 2
 
-De woning gelegen te Apt 101, 456 High Rise Lane heeft een oppervlakte van 120 vierkante meter en is gebouwd in 2000. Zonnepanelen zijn al aanwezig.
-De vaste kosten voor dit appartement zijn 300 euro.
+Met hoeveel personen woon je in deze woning (1-10)? 3
+
+De huurprijs van dit appartement bedraagt 890 euro/maand.
+Druk op enter om verder te gaan...
 ```
 
-Een appartement wordt gekozen. We berekenen de huurprijs van de woning.
+#### Gebruiker kiest "Stop"
 
 ```plaintext
-...
-Welke woning wil je bekijken (1-8): 2
+Maak een keuze (1-9): 1
 
-Met hoeveel personen woon je in deze woning?
-Aantal personen (1-10): 3
-
-1. Info over de woning
-2. Info over het verbruik
-3. Info over de huurprijs
-Maak een keuze (1-3): 3
-
-De huurprijs van deze woning is 890 euro.
+Bedankt om de woning applicatie te gebruiken!
 ```
 
 ## Oplossing
 
-De oplossing voor deze opdracht [vind je hier](https://gitpub.sebastiaanh.com/public/web/ceee4f4a-4330-4561-a785-913b487f1f76)
+De oplossing voor deze opdracht [vind je hier!](https://gitpub.sebastiaanh.com/public/web/ceee4f4a-4330-4561-a785-913b487f1f76)
