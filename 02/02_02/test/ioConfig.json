@@ -6,20 +6,20 @@
       "outputs": ["Jan weegt 67 kg", "1.8 m groot", "De BMI is 20.7"]
     },
     {
-      "inputs": ["Piet", "80", "1,8"],
-      "outputs": ["Piet weegt 80 kg", "1,8 m groot", "De BMI is 24,7"]
+      "inputs": ["Piet", "80", "1.8"],
+      "outputs": ["Piet weegt 80 kg", "1.8 m groot", "De BMI is 24.7"]
     },
     {
-      "inputs": ["Klaas", "90", "1,6"],
-      "outputs": ["Klaas weegt 90 kg", "1,6 m groot", "De BMI is 35,2"]
+      "inputs": ["Klaas", "90", "1.6"],
+      "outputs": ["Klaas weegt 90 kg", "1.6 m groot", "De BMI is 35.2"]
     },
     {
-      "inputs": ["Lien", "50", "1,4"],
-      "outputs": ["Lien weegt 50 kg", "1,4 m groot", "De BMI is 25,5"]
+      "inputs": ["Lien", "50", "1.4"],
+      "outputs": ["Lien weegt 50 kg", "1.4 m groot", "De BMI is 25.5"]
     },
     {
-      "inputs": ["Kim", "80", "1,75"],
-      "outputs": ["Kim weegt 80 kg", "1,75 m groot", "De BMI is 26,1"]
+      "inputs": ["Kim", "80", "1.75"],
+      "outputs": ["Kim weegt 80 kg", "1.75 m groot", "De BMI is 26.1"]
     },
     {
       "inputs": ["Margot", "40", "1"],
