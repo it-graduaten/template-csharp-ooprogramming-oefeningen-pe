@@ -2,11 +2,11 @@
   "fixtures": [],
   "ioConfig": [
     {
-      "inputs": [1, "John", "Doe", 11],
+      "inputs": ["1", "John", "Doe", "11"],
       "outputs": ["John Doe", "1760 euro"]
     },
     {
-      "inputs": [2, "John", "Doe", 11, 1500],
+      "inputs": ["2", "John", "Doe", "11", "1500"],
       "outputs": ["John Doe", "3260 euro", "eigenaar", "loon hoger"]
     }
   ]
