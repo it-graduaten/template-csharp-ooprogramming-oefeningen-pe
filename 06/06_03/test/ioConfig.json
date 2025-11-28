@@ -4,13 +4,13 @@
     {
       "inputs": [
         "spel-1.txt",
-        2,
+        "2",
         "klaveren",
         "zwart",
-        3,
+        "3",
         "klaveren",
         "zwart",
-        10,
+        "10",
         "koeken",
         "rood"
       ],
@@ -25,16 +25,16 @@
     {
       "inputs": [
         "spel-1.txt",
-        1,
+        "1",
         "schoppen",
         "zwart",
-        2,
+        "2",
         "koeken",
         "rood",
-        3,
+        "3",
         "ruiten",
         "zwart",
-        8,
+        "8",
         "klaveren",
         "zwart"
       ],
