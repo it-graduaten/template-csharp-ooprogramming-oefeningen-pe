@@ -2,7 +2,7 @@
   "fixtures": [],
   "ioConfig": [
     {
-      "inputs": [0, 0, 3],
+      "inputs": ["0", "0", "3"],
       "outputs": [
         "Keukenlicht: Aan",
         "Woonkamerlicht: Uit",
@@ -11,7 +11,7 @@
       ]
     },
     {
-      "inputs": [1, 0, 3],
+      "inputs": ["1", "0", "3"],
       "outputs": [
         "Keukenlicht: Uit",
         "Woonkamerlicht: Aan",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "inputs": [2, 0, 3],
+      "inputs": ["2", "0", "3"],
       "outputs": [
         "Keukenlicht: Uit",
         "Woonkamerlicht: Uit",
@@ -29,7 +29,7 @@
       ]
     },
     {
-      "inputs": [2, 2, 10, 3],
+      "inputs": ["2", "2", "10", "3"],
       "outputs": [
         "Keukenlicht: Uit",
         "Woonkamerlicht: Uit",
