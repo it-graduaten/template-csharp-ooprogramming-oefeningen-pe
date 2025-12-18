@@ -2,7 +2,7 @@
   "fixtures": [],
   "ioConfig": [
     {
-      "inputs": [1, 1],
+      "inputs": ["1", "1"],
       "outputs": [
         "OVERZICHT FESTIVAL PUKKELPOP",
         "----------------------------",
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "inputs": [1, 2, "vrijdag", "LeBrock", "synth rock", 12500],
+      "inputs": ["1", "2", "vrijdag", "LeBrock", "synth rock", "12500"],
       "outputs": [
         "OVERZICHT FESTIVAL PUKKELPOP",
         "----------------------------",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "inputs": [1, 3, "vrijdag", "Paramore"],
+      "inputs": ["1", "3", "vrijdag", "Paramore"],
       "outputs": [
         "OVERZICHT FESTIVAL PUKKELPOP",
         "----------------------------",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "inputs": [2, 1],
+      "inputs": ["2", "1"],
       "outputs": [
         "OVERZICHT FESTIVAL GROEZROCK",
         "----------------------------",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "inputs": [2, 2, "zaterdag", "Sum 41", "punk rock", 125000],
+      "inputs": ["2", "2", "zaterdag", "Sum 41", "punk rock", "125000"],
       "outputs": [
         "OVERZICHT FESTIVAL GROEZROCK",
         "----------------------------",
