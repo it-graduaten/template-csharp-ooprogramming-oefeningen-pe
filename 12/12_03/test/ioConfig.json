@@ -2,15 +2,15 @@
   "fixtures": [],
   "ioConfig": [
     {
-      "inputs": [16, 4],
+      "inputs": ["16", "4"],
       "outputs": ["Result: 4", "Square root: 2"]
     },
     {
-      "inputs": [16, 0],
+      "inputs": ["16", "0"],
       "outputs": ["Error: Division by zero is not allowed."]
     },
     {
-      "inputs": [-16, 4],
+      "inputs": ["-16", "4"],
       "outputs": [
         "Arithmetic Error: Cannot calculate square root of a negative number."
       ]
