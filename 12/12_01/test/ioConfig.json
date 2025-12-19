@@ -2,7 +2,7 @@
   "fixtures": [],
   "ioConfig": [
     {
-      "inputs": [0],
+      "inputs": ["0"],
       "outputs": [
         "1000",
         "Andrew Antosca",
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "inputs": [1, 1001],
+      "inputs": ["1", "1001"],
       "outputs": [
         "1001",
         "Barbara White",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "inputs": [1, 1007],
+      "inputs": ["1", "1007"],
       "outputs": ["Klant met nummer 1007 bestaat niet"]
     }
   ]
